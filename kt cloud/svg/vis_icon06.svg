@@ -1,0 +1,120 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="270.501"
+                height="270.501"
+                viewBox="0 0 270.501 270.501"
+              >
+                <defs>
+                  <filter
+                    id="타원_10"
+                    x="0"
+                    y="0"
+                    width="270.501"
+                    height="270.501"
+                    filterUnits="userSpaceOnUse"
+                  >
+                    <feOffset dy="30" input="SourceAlpha"></feOffset>
+                    <feGaussianBlur
+                      stdDeviation="25"
+                      result="blur"
+                    ></feGaussianBlur>
+                    <feFlood
+                      flood-color="#0082e5"
+                      flood-opacity="0.302"
+                    ></feFlood>
+                    <feComposite operator="in" in2="blur"></feComposite>
+                    <feComposite in="SourceGraphic"></feComposite>
+                  </filter>
+                </defs>
+                <g
+                  id="그룹_52"
+                  data-name="그룹 52"
+                  transform="translate(-631.326 -45.739)"
+                >
+                  <g transform="matrix(1, 0, 0, 1, 631.33, 45.74)">
+                    <circle
+                      id="타원_10-2"
+                      data-name="타원 10"
+                      cx="56.791"
+                      cy="56.791"
+                      r="56.791"
+                      transform="translate(75 52.14) rotate(-3.61)"
+                      fill="#0082e5"
+                    ></circle>
+                  </g>
+                  <path
+                    id="패스_47"
+                    data-name="패스 47"
+                    d="M813.3,155.633a2.985,2.985,0,0,0-2.758-1.869l-32.77-5a2.987,2.987,0,0,0-2.978,2.978l-14,38.193c0,.039.01.074.012.113-.1,0-.2.005-.3,0v.709l.8.833a3,3,0,0,0,.666.693l21.1,37.284c.858.039,1.721.061,2.588.061a56.792,56.792,0,0,0,56.791-56.791Z"
+                    transform="translate(-19.079 -21.849)"
+                    fill="#006dc1"
+                  ></path>
+                  <g
+                    id="그룹_668"
+                    data-name="그룹 668"
+                    transform="translate(37.874 10.691)"
+                  >
+                    <circle
+                      id="타원_85"
+                      data-name="타원 85"
+                      cx="8.397"
+                      cy="8.397"
+                      r="8.397"
+                      transform="translate(743.056 120.898)"
+                      fill="#58b7ff"
+                    ></circle>
+                    <path
+                      id="사각형_472"
+                      data-name="사각형 472"
+                      d="M10.335,0H21.961A10.335,10.335,0,0,1,32.3,10.335v0a2.584,2.584,0,0,1-2.584,2.584H2.584A2.584,2.584,0,0,1,0,10.335v0A10.335,10.335,0,0,1,10.335,0Z"
+                      transform="translate(735.305 139.63)"
+                      fill="#58b7ff"
+                    ></path>
+                  </g>
+                  <g
+                    id="그룹_669"
+                    data-name="그룹 669"
+                    transform="translate(-8.126 10.691)"
+                  >
+                    <circle
+                      id="타원_85-2"
+                      data-name="타원 85"
+                      cx="8.397"
+                      cy="8.397"
+                      r="8.397"
+                      transform="translate(743.056 120.898)"
+                      fill="#58b7ff"
+                    ></circle>
+                    <path
+                      id="사각형_472-2"
+                      data-name="사각형 472"
+                      d="M10.335,0H21.961A10.335,10.335,0,0,1,32.3,10.335v0a2.584,2.584,0,0,1-2.584,2.584H2.584A2.584,2.584,0,0,1,0,10.335v0A10.335,10.335,0,0,1,10.335,0Z"
+                      transform="translate(735.305 139.63)"
+                      fill="#58b7ff"
+                    ></path>
+                  </g>
+                  <g
+                    id="그룹_667"
+                    data-name="그룹 667"
+                    transform="translate(6.021 2.016)"
+                  >
+                    <circle
+                      id="타원_85-3"
+                      data-name="타원 85"
+                      cx="13"
+                      cy="13"
+                      r="13"
+                      transform="translate(747.305 120.898)"
+                      fill="#fff"
+                    ></circle>
+                    <path
+                      id="사각형_472-3"
+                      data-name="사각형 472"
+                      d="M16,0H34A16,16,0,0,1,50,16v0a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4v0A16,16,0,0,1,16,0Z"
+                      transform="translate(735.305 149.898)"
+                      fill="#fff"
+                    ></path>
+                  </g>
+                </g>
+              </svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218.44 76.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        font-family: Anton-Regular, Anton;
+        font-size: 60px;
+        stroke: #f8ed3a;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(.5 56.28)"><tspan x="0" y="0">WHO AM I</tspan></text>
+</svg>

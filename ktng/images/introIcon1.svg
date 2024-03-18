@@ -1,0 +1,20 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle opacity=".5" cx="50" cy="50" r="50" fill="#fff"/>
+    <g clip-path="url(#59ialcsy9a)" stroke="#000222" stroke-width="2">
+        <path d="M77.422 38.71H15.897V72.33h61.525V38.71z" fill="#6CA9F8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M73.224 35.35h-21.52a5.039 5.039 0 0 0-5.041 5.041v34.743a5.042 5.042 0 0 1 5.042-5.042h21.519c.113 0 .227.012.334.018V35.367c-.113-.006-.22-.018-.334-.018zM20.096 35.35h21.519a5.039 5.039 0 0 1 5.042 5.041v34.743a5.042 5.042 0 0 0-5.042-5.042h-21.52c-.113 0-.227.012-.334.018V35.367c.113-.006.221-.018.335-.018z" fill="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="m22.883 30.738 19.276 4.611c2.93 1.119 4.515 2.255 4.515 5.042v34.743c0-2.787-1.854-3.696-4.515-5.042l-19.276-4.611c-.102 0-.204-1.669-.3-1.663V30.756c.102-.006.198-.018.3-.018z" fill="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="m26.537 29.057 16.316 6.292c2.476 1.119 3.822 2.255 3.822 5.042v34.743c0-2.787-1.567-3.696-3.822-5.042L26.537 63.8c-.084 0-.168.012-.257.018V29.075c.083-.006.167-.018.257-.018z" fill="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M56.381 43.417h12.44M56.381 49.135h12.44M56.381 54.847h12.44M56.381 60.565h12.44" stroke-linejoin="round"/>
+        <path d="m31.375 38.13 10.216 3.942M31.375 43.513l10.216 3.942M31.375 48.89l10.216 3.941M31.375 54.273l10.216 3.935"/>
+        <path d="M79.73 55.03 65.39 69.371l9.367 9.368 14.34-14.341-9.367-9.368z" fill="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="m74.76 78.734-4.682-4.689-4.69-4.683-1.997 7.997 3.373 3.373 7.997-1.998zM66.764 80.732l-3.373-3.373-1.124 4.498 4.497-1.125z" fill="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M71.686 75.66 86.03 61.324M68.463 72.437l14.342-14.343" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M49.36 24.811v-6.914h-7.572v6.914H37.68l7.895 7.895 7.895-7.895h-4.11z" fill="#6CA9F8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <defs>
+        <clipPath id="59ialcsy9a">
+            <path fill="#fff" transform="translate(15 17)" d="M0 0h75v65.754H0z"/>
+        </clipPath>
+    </defs>
+</svg>

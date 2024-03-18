@@ -1,0 +1,2641 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1400"
+  height="974.754"
+  viewBox="0 0 1400 974.754"
+>
+  <defs>
+    <filter
+      id="사각형_255"
+      x="0"
+      y="0"
+      width="1400"
+      height="974.754"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur"></feGaussianBlur>
+      <feFlood flood-color="#2b4447" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_256"
+      x="296.79"
+      y="487.94"
+      width="359.138"
+      height="327"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-5"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-5"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_258"
+      x="490.539"
+      y="95.042"
+      width="872.671"
+      height="172.12"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-3"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-3"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_266"
+      x="490.539"
+      y="162.491"
+      width="294.755"
+      height="260"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-4"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-4"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <clipPath id="clip-path">
+      <rect
+        id="사각형_500"
+        data-name="사각형 500"
+        width="60"
+        height="60"
+        transform="translate(59.611 21.611)"
+        fill="#fff"
+        stroke="#707070"
+        stroke-width="1"
+      ></rect>
+    </clipPath>
+    <filter
+      id="사각형_266-2"
+      x="297.389"
+      y="162.491"
+      width="294.755"
+      height="260"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-5"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-5"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_266-3"
+      x="297.389"
+      y="322.49"
+      width="582.946"
+      height="355"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-6"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-6"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter id="타원_63">
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="3" result="blur-7"></feGaussianBlur>
+      <feFlood flood-opacity="0.161" result="color"></feFlood>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-7"></feComposite>
+      <feComposite operator="in" in="color"></feComposite>
+      <feComposite operator="in" in2="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_266-4"
+      x="780.264"
+      y="322.49"
+      width="582.946"
+      height="355"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-8"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-8"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_266-5"
+      x="36.79"
+      y="322.49"
+      width="359.138"
+      height="355"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-9"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-9"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_266-6"
+      x="36.79"
+      y="577.49"
+      width="359.138"
+      height="355"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-10"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-10"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_266-7"
+      x="682.156"
+      y="162.491"
+      width="294.755"
+      height="260"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-11"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-11"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_266-8"
+      x="873.772"
+      y="162.491"
+      width="294.755"
+      height="260"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-12"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-12"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_266-9"
+      x="1068.455"
+      y="162.491"
+      width="294.755"
+      height="260"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-13"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-13"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+    <filter
+      id="사각형_527"
+      x="297.389"
+      y="577.49"
+      width="1065.82"
+      height="355"
+      filterUnits="userSpaceOnUse"
+    >
+      <feOffset input="SourceAlpha"></feOffset>
+      <feGaussianBlur stdDeviation="20" result="blur-14"></feGaussianBlur>
+      <feFlood flood-color="#a5dfdf" flood-opacity="0.2"></feFlood>
+      <feComposite operator="in" in2="blur-14"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+  </defs>
+  <g id="VISUAL" transform="translate(-866 -1205)">
+    <g transform="matrix(1, 0, 0, 1, 866, 1205)" filter="url(#사각형_255)">
+      <rect
+        id="사각형_255-2"
+        data-name="사각형 255"
+        width="1280"
+        height="854.754"
+        rx="30"
+        transform="translate(60 60)"
+        fill="#f6f7f8"
+      ></rect>
+    </g>
+    <g id="LOGO" transform="translate(971.988 1295.659)">
+      <g id="그룹_1" data-name="그룹 1" transform="translate(41.059 4.407)">
+        <path
+          id="패스_1"
+          data-name="패스 1"
+          d="M159.245,222.5q-1.894-.1-3.117-.277V201.888q1.282-.145,2.971-.277t2.71-.131a8.558,8.558,0,0,1,5.244,1.355,5.163,5.163,0,0,1,1.777,4.384,4.628,4.628,0,0,1-2.564,4.4,4.865,4.865,0,0,1,2.418,1.777,5.09,5.09,0,0,1,.9,3.059,5.554,5.554,0,0,1-1.908,4.632,8.606,8.606,0,0,1-5.462,1.515Q161.138,222.6,159.245,222.5Zm6.642-15.251a3.089,3.089,0,0,0-.918-2.476,4.787,4.787,0,0,0-3.1-.787q-1.136,0-2.884.175v6.322h2.855Q165.887,210.482,165.887,207.248Zm-.452,11.958a3.142,3.142,0,0,0,1.209-2.752,3.092,3.092,0,0,0-1.121-2.681,5.425,5.425,0,0,0-3.219-.815h-3.321v6.933a23.43,23.43,0,0,0,3.146.175A5.617,5.617,0,0,0,165.436,219.207Z"
+          transform="translate(-156.128 -200.024)"
+          fill="#3b3938"
+        ></path>
+        <path
+          id="패스_2"
+          data-name="패스 2"
+          d="M181.2,201.856h2.36V204.1c0,.447-.215.671-.641.671h-2.3v-2.244Q180.62,201.857,181.2,201.856Zm.146,5.3h2.127V221.7q0,.728-.67.728h-2.127V207.886Q180.678,207.158,181.348,207.158Z"
+          transform="translate(-163.549 -200.138)"
+          fill="#3b3938"
+        ></path>
+        <path
+          id="패스_3"
+          data-name="패스 3"
+          d="M189.439,224.029V223.3a2.927,2.927,0,0,1,.088-.829,2.235,2.235,0,0,1,.378-.656l6.962-9.876h-6.321c-.486,0-.728-.233-.728-.7v-1.777H199.4a.67.67,0,0,1,.758.758v.758a2.6,2.6,0,0,1-.1.8,2.888,2.888,0,0,1-.422.742l-6.876,9.731h4.662a6.652,6.652,0,0,0,3-.466v1.952c0,.389-.229.651-.685.787a9.946,9.946,0,0,1-2.462.2H190.2Q189.439,224.729,189.439,224.029Z"
+          transform="translate(-166.221 -202.443)"
+          fill="#3b3938"
+        ></path>
+        <path
+          id="패스_4"
+          data-name="패스 4"
+          d="M211.294,219.95q-1.836-2.621-1.836-7.924t1.836-7.924q1.835-2.622,5.884-2.622t5.885,2.622q1.836,2.622,1.835,7.924t-1.835,7.924q-1.836,2.622-5.885,2.622T211.294,219.95Zm8.522-.728a4.536,4.536,0,0,0,1.572-2.476,16.558,16.558,0,0,0,.539-4.72,16.97,16.97,0,0,0-.525-4.734,4.465,4.465,0,0,0-1.558-2.461,5.244,5.244,0,0,0-5.332,0,4.465,4.465,0,0,0-1.558,2.461,21.637,21.637,0,0,0,0,9.468,4.464,4.464,0,0,0,1.558,2.462,4.525,4.525,0,0,0,2.665.728A4.475,4.475,0,0,0,219.815,219.222Z"
+          transform="translate(-172.287 -200.024)"
+          fill="#3b3938"
+        ></path>
+        <path
+          id="패스_5"
+          data-name="패스 5"
+          d="M234.871,208.888v-1.66a.879.879,0,0,1,.19-.6.673.673,0,0,1,.539-.218h1.573v-1.34a6.1,6.1,0,0,1,1.092-4.064,3.885,3.885,0,0,1,3.074-1.238,15.574,15.574,0,0,0,1.922-.087,3.048,3.048,0,0,0,1.02-.291v1.951a.7.7,0,0,1-.495.728,6.694,6.694,0,0,1-1.893.175,1.65,1.65,0,0,0-1.457.67,3.923,3.923,0,0,0-.466,2.185v1.311h.874q1.165,0,1.966-.058a3.055,3.055,0,0,0,1.267-.321v1.748a.893.893,0,0,1-.743.874,9.748,9.748,0,0,1-2.578.233h-.787v12.061q0,.728-.7.728h-2.1V208.888Z"
+          transform="translate(-179.987 -199.391)"
+          fill="#3b3938"
+        ></path>
+        <path
+          id="패스_6"
+          data-name="패스 6"
+          d="M249.917,208.888v-1.66a.879.879,0,0,1,.19-.6.673.673,0,0,1,.539-.218h1.573v-1.34a6.094,6.094,0,0,1,1.092-4.064,3.885,3.885,0,0,1,3.074-1.238,15.574,15.574,0,0,0,1.922-.087,3.048,3.048,0,0,0,1.02-.291v1.951a.7.7,0,0,1-.495.728,6.7,6.7,0,0,1-1.894.175,1.65,1.65,0,0,0-1.456.67,3.923,3.923,0,0,0-.466,2.185v1.311h.874q1.165,0,1.966-.058a3.055,3.055,0,0,0,1.267-.321v1.748a.893.893,0,0,1-.743.874,9.752,9.752,0,0,1-2.578.233h-.787v12.061q0,.728-.7.728h-2.1V208.888Z"
+          transform="translate(-184.546 -199.391)"
+          fill="#3b3938"
+        ></path>
+        <path
+          id="패스_7"
+          data-name="패스 7"
+          d="M267.679,201.856h2.36V204.1c0,.447-.215.671-.641.671h-2.3v-2.244Q267.1,201.857,267.679,201.856Zm.146,5.3h2.127V221.7q0,.728-.67.728h-2.127V207.886Q267.154,207.158,267.824,207.158Z"
+          transform="translate(-189.751 -200.138)"
+          fill="#3b3938"
+        ></path>
+        <path
+          id="패스_8"
+          data-name="패스 8"
+          d="M275.747,217.019q0-3.845,1.952-5.782a7.115,7.115,0,0,1,5.244-1.938,8.682,8.682,0,0,0,3.233-.378v2.039q0,.466-.757.67a9.566,9.566,0,0,1-2.3.2q-4.545,0-4.544,5.185A6.271,6.271,0,0,0,279.636,221a3.612,3.612,0,0,0,2.987,1.325,9.3,9.3,0,0,0,3.99-.758v1.807a.936.936,0,0,1-.641.932,4.787,4.787,0,0,1-1.471.408,12.411,12.411,0,0,1-1.821.146Q275.747,224.856,275.747,217.019Z"
+          transform="translate(-192.372 -202.278)"
+          fill="#3b3938"
+        ></path>
+        <path
+          id="패스_9"
+          data-name="패스 9"
+          d="M295.255,222.923q-1.661-1.995-1.661-5.929a9.345,9.345,0,0,1,1.588-5.783,5.711,5.711,0,0,1,4.85-2.083,5.333,5.333,0,0,1,4.457,1.807,7.2,7.2,0,0,1,1.428,4.6v1.107a1.565,1.565,0,0,1-.364,1.165,1.614,1.614,0,0,1-1.151.35h-8.041a4.466,4.466,0,0,0,1.108,3.248,4.207,4.207,0,0,0,3.087,1.063,11.081,11.081,0,0,0,4.807-1.106v1.718a1.03,1.03,0,0,1-.611.962,7.111,7.111,0,0,1-1.938.627,12.571,12.571,0,0,1-2.462.247A6.256,6.256,0,0,1,295.255,222.923Zm7.953-7.648a3.969,3.969,0,0,0-.859-2.753,3.527,3.527,0,0,0-5,.189,4.775,4.775,0,0,0-.932,3.118h6.787Z"
+          transform="translate(-197.78 -202.342)"
+          fill="#3b3938"
+        ></path>
+      </g>
+      <g id="그룹_2" data-name="그룹 2" transform="translate(0)">
+        <path
+          id="패스_10"
+          data-name="패스 10"
+          d="M107.654,208.974l7.527-9.262h-4.106a5.048,5.048,0,0,0-4.223,1.872l-3.962,4.875V193.068H98.914a1.7,1.7,0,0,0-1.694,1.7v24.982h3.975a1.694,1.694,0,0,0,1.694-1.7v-6.647l3.219,3.954,2.739,3.374a2.558,2.558,0,0,0,2.028,1.014h5.55l-3.588-4.4Zm17.4,6.059a1.526,1.526,0,0,1-1.519-1.524V193.068h-3.978a1.7,1.7,0,0,0-1.7,1.694v19.813a4.936,4.936,0,0,0,5.177,5.173H127.4a1.7,1.7,0,0,0,1.7-1.7v-3.019Z"
+          transform="translate(-97.22 -193.068)"
+          fill="#1a1311"
+        ></path>
+        <path
+          id="패스_11"
+          data-name="패스 11"
+          d="M106.129,208.022l.008-.01a.054.054,0,0,1-.013.008Zm26.489-3.777,0-3.763-.349.372c-.012.006-1.077,1.1-4.135,1.1H113.674a4.819,4.819,0,0,0-4.179,1.936l-.447.549c-.013.017-.027.031-.041.046l-2.87,3.533a6.637,6.637,0,0,1,3.931-1.262H128.13c2.19,0,4.3-.643,4.469-2.285a1.128,1.128,0,0,0,.019-.221"
+          transform="translate(-99.918 -195.314)"
+          fill="#dc000c"
+        ></path>
+      </g>
+    </g>
+    <g
+      id="그룹_557"
+      data-name="그룹 557"
+      transform="translate(1218.79 1300.257)"
+    >
+      <text
+        id="홈"
+        transform="translate(6 14)"
+        fill="#232323"
+        font-size="15"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-6.482" y="0">홈</tspan>
+      </text>
+      <text
+        id="전자우편"
+        transform="translate(90.317 16)"
+        fill="#232323"
+        font-size="17"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-29.385" y="0">전자우편</tspan>
+      </text>
+      <text
+        id="PIMS"
+        transform="translate(191.689 16)"
+        fill="#232323"
+        font-size="17"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-19.872" y="0">PIMS</tspan>
+      </text>
+      <text
+        id="전자결재"
+        transform="translate(289.599 16)"
+        fill="#232323"
+        font-size="17"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-29.385" y="0">전자결재</tspan>
+      </text>
+      <text
+        id="게시판"
+        transform="translate(392.97 16)"
+        fill="#232323"
+        font-size="17"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-22.039" y="0">게시판</tspan>
+      </text>
+      <text
+        id="유용한_업무"
+        data-name="유용한 업무"
+        transform="translate(500.012 14)"
+        fill="#232323"
+        font-size="15"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-34.241" y="0">유용한 업무</tspan>
+      </text>
+      <text
+        id="프로젝트_관리"
+        data-name="프로젝트 관리"
+        transform="translate(640.778 16)"
+        fill="#232323"
+        font-size="17"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-46.152" y="0">프로젝트 관리</tspan>
+      </text>
+      <text
+        id="화상회의"
+        transform="translate(770.94 16)"
+        fill="#232323"
+        font-size="17"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-29.385" y="0">화상회의</tspan>
+      </text>
+      <text
+        id="웹디스크"
+        transform="translate(881.311 16)"
+        fill="#232323"
+        font-size="17"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-29.385" y="0">웹디스크</tspan>
+      </text>
+    </g>
+    <g
+      id="그룹_559"
+      data-name="그룹 559"
+      transform="translate(962.79 1360.042)"
+    >
+      <g
+        transform="matrix(1, 0, 0, 1, -356.79, -547.94)"
+        filter="url(#사각형_256)"
+      >
+        <rect
+          id="사각형_256-2"
+          data-name="사각형 256"
+          width="239.138"
+          height="207"
+          rx="10"
+          transform="translate(356.79 547.94)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <g
+        id="그룹_558"
+        data-name="그룹 558"
+        transform="translate(88.145 36.578)"
+      >
+        <circle
+          id="타원_61"
+          data-name="타원 61"
+          cx="31.425"
+          cy="31.425"
+          r="31.425"
+          fill="#00c6e5"
+        ></circle>
+        <g
+          id="그룹_1104"
+          data-name="그룹 1104"
+          transform="translate(-756.572 -1419.266)"
+        >
+          <path
+            id="패스_1339"
+            data-name="패스 1339"
+            d="M768.087,1672.163a.166.166,0,0,1-.01-.058.075.075,0,0,1-.009-.029s-.881,1.154-2.24,3.153a31.556,31.556,0,0,0,2.513,2.254A19.809,19.809,0,0,0,768.087,1672.163Z"
+            transform="translate(0 -202.29)"
+            fill="#c83166"
+          ></path>
+          <path
+            id="패스_1340"
+            data-name="패스 1340"
+            d="M1005.459,1673.841a23.823,23.823,0,0,0-2.729-4.518,66.514,66.514,0,0,0-1.984,8.094A31.469,31.469,0,0,0,1005.459,1673.841Z"
+            transform="translate(-196.256 -199.99)"
+            fill="#c83166"
+          ></path>
+          <path
+            id="패스_1341"
+            data-name="패스 1341"
+            d="M791.807,1647.476v-.01l.232-.3,1.726-2.218c-.81.077-1.581.164-2.343.289-.019,0-.048.01-.067.01-.087.019-.174.029-.26.048a37.288,37.288,0,0,0-6.393,1.717,31.709,31.709,0,0,0-5.265,2.4.075.075,0,0,0,.009.029.167.167,0,0,0,.01.058,19.807,19.807,0,0,1,.255,5.32q.617.5,1.259.963a31.188,31.188,0,0,0,12.795,5.462l-4.174-10.926Z"
+            transform="translate(-11.368 -179.628)"
+            fill="#e53a77"
+          ></path>
+          <path
+            id="패스_1342"
+            data-name="패스 1342"
+            d="M901.4,1649.231c-.1-.029-.193-.048-.289-.067l-.926-.174c-.318-.058-.656-.115-.983-.173v.145l1.668,3.4.212.434.742,1.523-1.4,1.639-.357.424-4.5,5.285,0,0-.779.914-.193.232-1.807,2.13c.422.017.845.028,1.27.028a31.238,31.238,0,0,0,14.7-3.655q.918-.489,1.8-1.035a66.52,66.52,0,0,1,1.984-8.094A94.122,94.122,0,0,0,901.4,1649.231Z"
+            transform="translate(-106.059 -182.858)"
+            fill="#e53a77"
+          ></path>
+          <path
+            id="패스_1343"
+            data-name="패스 1343"
+            d="M845.72,1650.629l-.049-.578v-.01l-.366-5.091-1.726,2.218-.232.3v.01l-2.218,2.845,4.174,10.926c.4.072.8.135,1.2.191Z"
+            transform="translate(-62.909 -179.628)"
+            fill="#c83166"
+          ></path>
+          <path
+            id="패스_1344"
+            data-name="패스 1344"
+            d="M894.293,1653.534l-.212-.434-1.668-3.4s-2.864,5.708-5.457,11.078v0c-.145.309-.3.617-.444.916-.048.106-.1.212-.154.318-.61,1.274-1.186,2.5-1.7,3.592q.665.055,1.337.081l1.807-2.13.193-.232.779-.914,0,0,4.5-5.285.357-.424,1.4-1.639Z"
+            transform="translate(-99.274 -183.593)"
+            fill="#c83166"
+          ></path>
+          <path
+            id="패스_1345"
+            data-name="패스 1345"
+            d="M877.594,1597.828a10.411,10.411,0,0,1-5.744,1.645,7.124,7.124,0,0,1-1.39-.152q-.206-.046-.4-.1l-.136.974a9.269,9.269,0,0,0,2,.584,11.439,11.439,0,0,0,1.925.174,9.452,9.452,0,0,0,6.176-2h0l.067-3.328A11.034,11.034,0,0,1,877.594,1597.828Z"
+            transform="translate(-86.96 -138.418)"
+            fill="#f2745f"
+          ></path>
+          <path
+            id="패스_1346"
+            data-name="패스 1346"
+            d="M895.348,1557.708a.008.008,0,0,0,0-.016A.008.008,0,0,0,895.348,1557.708Z"
+            transform="translate(-108.197 -106.731)"
+            fill="#3f3e79"
+          ></path>
+          <path
+            id="패스_1347"
+            data-name="패스 1347"
+            d="M904.259,1534a.575.575,0,0,0-.15-.007c-.555,0-.578.781-.432,1.174a.585.585,0,0,0,.5.435.528.528,0,0,0,.478-.362C904.825,1534.833,904.8,1534.1,904.259,1534Z"
+            transform="translate(-115.098 -86.931)"
+            fill="#17223f"
+          ></path>
+          <path
+            id="패스_1348"
+            data-name="패스 1348"
+            d="M856.448,1532.949a.565.565,0,0,0-.15-.008c-.555,0-.578.781-.432,1.174a.585.585,0,0,0,.5.435.528.528,0,0,0,.478-.362C857.014,1533.78,856.992,1533.05,856.448,1532.949Z"
+            transform="translate(-75.156 -86.052)"
+            fill="#17223f"
+          ></path>
+          <path
+            id="패스_1349"
+            data-name="패스 1349"
+            d="M877.025,1540.232c.418-.083.348-.749-.067-.66-.249.053-.919.132-1.034-.225-.042-.13.186-.518.229-.64.13-.364.258-.73.354-1.1.137-.534.335-1.372-.158-1.764a.043.043,0,0,0-.066.015c-.3.483-.213,1.185-.385,1.741a9.692,9.692,0,0,0-.651,1.781C875.184,1540.171,876.432,1540.349,877.025,1540.232Z"
+            transform="translate(-91.41 -88.466)"
+            fill="#f2745f"
+          ></path>
+          <path
+            id="패스_1350"
+            data-name="패스 1350"
+            d="M855.643,1462.906a20.107,20.107,0,0,0-7.977-10.247,15.3,15.3,0,0,0,.225-9.4c-1.027-3.766-2.87-7.5-6.062-9.786-5.065-3.621-12.151-4.912-17.653-1.732a12.51,12.51,0,0,0-6.219,8.983,12.722,12.722,0,0,0,1.231,7.852c.176.342.373.69.583,1.035a25.218,25.218,0,0,1,.475-7.567,5.276,5.276,0,0,1,1.432-2.119,3.543,3.543,0,0,1,.512-.306,9.928,9.928,0,0,1,6.462-.848c2.138.362,4.427,1.057,6.548.236-.573.222,3.564,6.244,4.122,6.692a3.332,3.332,0,0,0,.467.317,13.392,13.392,0,0,1,.11,1.629c.554-.65,1.389-1.246,2.29-.528,1.2.958.155,6.77-3.558,6.647a13.982,13.982,0,0,1-2.094,3.438l-.067,3.328h0l.048,3.362.029,2.063c.328.058.665.115.983.173l.926.174c.1.019.193.038.289.067a94.127,94.127,0,0,1,11.138,2.96,23.824,23.824,0,0,1,2.729,4.518,31.54,31.54,0,0,0,3.441-3.713A14.825,14.825,0,0,0,855.643,1462.906Z"
+            transform="translate(-43.408 0)"
+            fill="#0a213d"
+          ></path>
+          <path
+            id="패스_1351"
+            data-name="패스 1351"
+            d="M877.214,1619.214l-.048-3.362a9.452,9.452,0,0,1-6.176,2,11.4,11.4,0,0,1-1.925-.174,9.276,9.276,0,0,1-2-.584l.136-.974h-.005l-.135.972-.482,3.047,0,.025,0-.025-.034.215h.005l-.048.287.366,5.091v.01l.049.578.787,10.808q.886.124,1.787.2c.512-1.1,1.088-2.318,1.7-3.592.058-.106.106-.212.154-.318.145-.3.3-.608.444-.916v0c2.594-5.37,5.457-11.078,5.457-11.078v-.145Z"
+            transform="translate(-84.104 -155.319)"
+            fill="#f8a38c"
+          ></path>
+          <path
+            id="패스_1352"
+            data-name="패스 1352"
+            d="M869.56,1577.339a1.771,1.771,0,0,0,1.168.531,5.439,5.439,0,0,0,1.323.047,4.448,4.448,0,0,0,2.412-.856c.09-.076-.008-.211-.108-.186-.4.1-.783.238-1.187.315a6.7,6.7,0,0,1-1.2.108,6.451,6.451,0,0,1-1.22-.107,3.071,3.071,0,0,0-1.126-.1C869.5,1577.113,869.5,1577.261,869.56,1577.339Z"
+            transform="translate(-86.628 -122.754)"
+            fill="#f2745f"
+          ></path>
+          <path
+            id="패스_1353"
+            data-name="패스 1353"
+            d="M894.228,1522.488a.961.961,0,0,0,.289.082c.1.009.19.024.285.029.191.011.383.009.574.018a9.43,9.43,0,0,1,1.141.113,6.092,6.092,0,0,1,1.116.287,4.149,4.149,0,0,0,.978.374c.087.009.12-.094.091-.158a1.6,1.6,0,0,0-.911-.66,5.368,5.368,0,0,0-1.141-.327,10.517,10.517,0,0,0-1.239-.133c-.2-.011-.408-.027-.61-.022-.095,0-.19.014-.285.021a.916.916,0,0,0-.289.077A.156.156,0,0,0,894.228,1522.488Z"
+            transform="translate(-107.176 -76.989)"
+            fill="#17223f"
+          ></path>
+          <path
+            id="패스_1354"
+            data-name="패스 1354"
+            d="M847.173,1518.864a2.412,2.412,0,0,0,.886.046c.282-.009.566-.008.848,0,.587.021,1.158.136,1.741.186.258.022.255-.333.056-.413a5.758,5.758,0,0,0-1.8-.321,7.6,7.6,0,0,0-.913,0,1.659,1.659,0,0,0-.859.209A.16.16,0,0,0,847.173,1518.864Z"
+            transform="translate(-67.863 -73.865)"
+            fill="#17223f"
+          ></path>
+          <path
+            id="패스_1355"
+            data-name="패스 1355"
+            d="M945.756,1556.536a.218.218,0,0,0,.052.174l.065-.526A1.356,1.356,0,0,0,945.756,1556.536Z"
+            transform="translate(-150.313 -105.471)"
+            fill="#f2745f"
+          ></path>
+          <path
+            id="패스_1356"
+            data-name="패스 1356"
+            d="M950.692,1547.552l.091.215.221.521a.306.306,0,0,0,.183.141.307.307,0,0,0,.377-.215.348.348,0,0,0-.031-.236l-.232-.5c-.038-.082-.074-.165-.114-.247a.817.817,0,0,0-.078-.114,8.856,8.856,0,0,1,.648-.616.307.307,0,0,0-.372-.482,6.966,6.966,0,0,0-.665.571,9.046,9.046,0,0,1-.177,1.138C950.593,1547.669,950.644,1547.611,950.692,1547.552Z"
+            transform="translate(-154.314 -96.94)"
+            fill="#f2745f"
+          ></path>
+          <path
+            id="패스_1357"
+            data-name="패스 1357"
+            d="M946.307,1551.344a1.671,1.671,0,0,0,.248-.2c.071-.071.137-.146.2-.22l.06-.07a9.047,9.047,0,0,0,.177-1.138c-.1.1-.2.2-.289.3a3.438,3.438,0,0,0-.557.763l-.065.526A.159.159,0,0,0,946.307,1551.344Z"
+            transform="translate(-150.591 -100.069)"
+            fill="#f2745f"
+          ></path>
+          <path
+            id="패스_1358"
+            data-name="패스 1358"
+            d="M851.718,1491c-.9-.718-1.736-.122-2.29.528a13.428,13.428,0,0,0-.11-1.629,3.348,3.348,0,0,1-.467-.317c-.559-.448-4.7-6.47-4.122-6.692-2.122.821-4.41.125-6.548-.236a9.928,9.928,0,0,0-6.462.848,3.54,3.54,0,0,0-.512.306,5.274,5.274,0,0,0-1.431,2.119,25.214,25.214,0,0,0-.475,7.567c.044.426.1.855.18,1.283,0,.024.012.059.012.082.765,4.226,2.328,8.638,6.535,9.824h.005q.2.056.4.1a7.121,7.121,0,0,0,1.39.152,10.413,10.413,0,0,0,5.744-1.646,11.028,11.028,0,0,0,2.5-2.207,13.987,13.987,0,0,0,2.094-3.438C851.873,1497.769,852.919,1491.956,851.718,1491Zm-14.293,2.01c.171-.557.087-1.259.385-1.742a.044.044,0,0,1,.066-.015c.493.392.295,1.23.158,1.763-.1.375-.224.741-.354,1.1-.043.121-.271.51-.229.64.115.357.785.279,1.034.225.415-.089.485.578.067.66-.593.117-1.842-.062-1.777-.855A9.676,9.676,0,0,1,837.425,1493.009Zm-2.8-.994a.528.528,0,0,1-.478.362.585.585,0,0,1-.5-.435c-.146-.392-.123-1.171.432-1.174a.569.569,0,0,1,.15.007C834.771,1490.878,834.794,1491.608,834.621,1492.016Zm-.642-3.088c-.282-.01-.566-.011-.848,0a2.415,2.415,0,0,1-.886-.046.16.16,0,0,1-.038-.288,1.657,1.657,0,0,1,.859-.209,7.572,7.572,0,0,1,.913,0,5.762,5.762,0,0,1,1.8.321c.2.08.2.435-.056.413C835.138,1489.064,834.566,1488.948,833.979,1488.927Zm6.792,9.26a4.45,4.45,0,0,1-2.412.856,5.426,5.426,0,0,1-1.323-.047,1.77,1.77,0,0,1-1.168-.531c-.062-.078-.057-.226.065-.248a3.076,3.076,0,0,1,1.126.1,6.472,6.472,0,0,0,1.22.107,6.741,6.741,0,0,0,1.2-.108c.4-.078.789-.219,1.187-.315C840.763,1497.976,840.861,1498.111,840.771,1498.187Zm-.685-3.346a.008.008,0,0,1,0,.017A.008.008,0,0,1,840.086,1494.841Zm2.4-2.652a.529.529,0,0,1-.478.362.585.585,0,0,1-.5-.435c-.146-.392-.123-1.172.432-1.174a.576.576,0,0,1,.15.008C842.64,1491.051,842.663,1491.782,842.49,1492.189Zm1.881-1.907a4.15,4.15,0,0,1-.978-.374,6.11,6.11,0,0,0-1.116-.287,9.509,9.509,0,0,0-1.141-.113c-.191-.009-.383-.007-.574-.018-.1-.006-.19-.021-.285-.029a.965.965,0,0,1-.289-.082.156.156,0,0,1,0-.3.9.9,0,0,1,.289-.077c.1-.007.191-.018.285-.021.2-.005.408.011.61.022a10.5,10.5,0,0,1,1.239.133,5.386,5.386,0,0,1,1.141.326,1.6,1.6,0,0,1,.911.66C844.491,1490.188,844.458,1490.291,844.371,1490.282Zm6.007,3.157a8.88,8.88,0,0,0-.648.616.809.809,0,0,1,.078.114c.04.081.076.165.114.247l.232.5a.348.348,0,0,1,.031.236.306.306,0,0,1-.56.073l-.221-.521-.091-.215c-.049.059-.1.117-.149.175l-.06.071c-.067.075-.133.149-.2.22a1.667,1.667,0,0,1-.249.2.159.159,0,0,1-.221-.036.218.218,0,0,1-.052-.174,1.358,1.358,0,0,1,.117-.353,3.442,3.442,0,0,1,.557-.763c.093-.1.19-.2.289-.3a7,7,0,0,1,.665-.571.307.307,0,0,1,.372.482Z"
+            transform="translate(-52.935 -43.88)"
+            fill="#f8a38c"
+          ></path>
+        </g>
+      </g>
+      <text
+        id="전산팀"
+        transform="translate(119.569 131.425)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-16.853" y="0">전산팀</tspan>
+      </text>
+      <text
+        id="케이트_부장님"
+        data-name="케이트 부장님"
+        transform="translate(119.569 162.423)"
+        fill="#232323"
+        font-size="19"
+        font-family="Pretendard-SemiBold, Pretendard"
+        font-weight="600"
+      >
+        <tspan x="-51.509" y="0">케이트 부장님</tspan>
+      </text>
+      <path
+        id="패스_769"
+        data-name="패스 769"
+        d="M947.818,192.371a.633.633,0,0,0-.132.787l.742,1.284a.631.631,0,0,0,.749.283l1.227-.409a.6.6,0,0,1,.6.113,5.858,5.858,0,0,0,1.844,1.063.636.636,0,0,1,.409.472l.252,1.265a.628.628,0,0,0,.617.5h1.485a.628.628,0,0,0,.617-.5l.252-1.265a.636.636,0,0,1,.409-.472,5.858,5.858,0,0,0,1.844-1.063.618.618,0,0,1,.6-.113l1.227.409a.631.631,0,0,0,.749-.283l.742-1.284a.634.634,0,0,0-.132-.787l-.969-.85a.624.624,0,0,1-.2-.585,6.105,6.105,0,0,0,0-2.14.624.624,0,0,1,.2-.585l.969-.85a.634.634,0,0,0,.132-.787l-.742-1.284a.631.631,0,0,0-.749-.283l-1.227.409a.6.6,0,0,1-.6-.113,5.859,5.859,0,0,0-1.844-1.063.636.636,0,0,1-.409-.472l-.252-1.265a.628.628,0,0,0-.617-.5H954.13a.628.628,0,0,0-.617.5l-.252,1.265a.636.636,0,0,1-.409.472,5.859,5.859,0,0,0-1.844,1.063.618.618,0,0,1-.6.113l-1.227-.409a.631.631,0,0,0-.749.283l-.742,1.284a.634.634,0,0,0,.132.787l.969.85a.624.624,0,0,1,.2.585,6.108,6.108,0,0,0,0,2.14.624.624,0,0,1-.2.585Zm7.054-5.966a3.461,3.461,0,1,1-3.461,3.461A3.459,3.459,0,0,1,954.873,186.405Z"
+        transform="translate(-735.002 -170)"
+        fill="#b5b5b5"
+      ></path>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 866, 1205)" filter="url(#사각형_258)">
+      <rect
+        id="사각형_258-2"
+        data-name="사각형 258"
+        width="752.671"
+        height="52.12"
+        rx="10"
+        transform="translate(550.54 155.04)"
+        fill="#fff"
+      ></rect>
+    </g>
+    <rect
+      id="사각형_259"
+      data-name="사각형 259"
+      width="174.755"
+      height="52.12"
+      rx="10"
+      transform="translate(1223.389 1360.042)"
+      fill="#00c9c8"
+    ></rect>
+    <text
+      id="공지사항"
+      transform="translate(1307.575 1391.371)"
+      fill="#fff"
+      font-size="17"
+      font-family="Pretendard-SemiBold, Pretendard"
+      font-weight="600"
+    >
+      <tspan x="-29.376" y="0">공지사항</tspan>
+    </text>
+    <text
+      id="업무_정보를_한_눈에_파악할_수_있는_업무포탈_KT_BizOffic_"
+      data-name="업무 정보를 한 눈에 파악할 수 있는 업무포탈 KT BizOffice!"
+      transform="translate(1444.132 1390.371)"
+      fill="#545454"
+      font-size="16"
+      font-family="Pretendard-SemiBold, Pretendard"
+      font-weight="600"
+    >
+      <tspan x="0" y="0">업무 정보를 한 눈에 파악할 수 있는 업무포탈</tspan>
+      <tspan y="0" fill="#02c9c8"></tspan>
+      <tspan y="0" fill="#212121">KT BizOffice!</tspan>
+    </text>
+    <g
+      id="그룹_560"
+      data-name="그룹 560"
+      transform="translate(1416.539 1427.491)"
+    >
+      <g
+        transform="matrix(1, 0, 0, 1, -550.54, -222.49)"
+        filter="url(#사각형_266)"
+      >
+        <rect
+          id="사각형_266-10"
+          data-name="사각형 266"
+          width="174.755"
+          height="140"
+          rx="10"
+          transform="translate(550.54 222.49)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <text
+        id="전자결재-2"
+        data-name="전자결재"
+        transform="translate(87.378 107.97)"
+        fill="#232323"
+        font-size="19"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-32.842" y="0">전자결재</tspan>
+      </text>
+      <g
+        id="마스크_그룹_41"
+        data-name="마스크 그룹 41"
+        transform="translate(-2.234 -1.611)"
+        clip-path="url(#clip-path)"
+      >
+        <g
+          id="그룹_685"
+          data-name="그룹 685"
+          transform="translate(62.304 29.558)"
+        >
+          <g id="그룹_12" data-name="그룹 12" transform="translate(6.326 0)">
+            <path
+              id="패스_27"
+              data-name="패스 27"
+              d="M416.883,62H390v43.488h34.79V69.907Z"
+              transform="translate(-390 -62)"
+              fill="#decfff"
+            ></path>
+            <path
+              id="패스_28"
+              data-name="패스 28"
+              d="M424,69.907h7.907L424,62Z"
+              transform="translate(-397.117 -62)"
+              fill="#8f5eff"
+            ></path>
+            <g
+              id="그룹_11"
+              data-name="그룹 11"
+              transform="translate(7.217 5.901)"
+            >
+              <rect
+                id="사각형_16"
+                data-name="사각형 16"
+                width="19.103"
+                height="1.91"
+                transform="translate(0 5.731)"
+                fill="#fff"
+              ></rect>
+              <rect
+                id="사각형_17"
+                data-name="사각형 17"
+                width="9.552"
+                height="1.91"
+                transform="translate(0 0)"
+                fill="#fff"
+              ></rect>
+              <rect
+                id="사각형_18"
+                data-name="사각형 18"
+                width="19.103"
+                height="1.91"
+                transform="translate(0 11.462)"
+                fill="#fff"
+              ></rect>
+            </g>
+          </g>
+          <g id="그룹_13" data-name="그룹 13" transform="translate(0 20.558)">
+            <rect
+              id="사각형_19"
+              data-name="사각형 19"
+              width="43.938"
+              height="20.059"
+              transform="translate(0.17 3.492)"
+              fill="#8f5eff"
+            ></rect>
+            <path
+              id="패스_29"
+              data-name="패스 29"
+              d="M387.894,88H382v3.953h8.365Z"
+              transform="translate(-382 -88)"
+              fill="#8f5eff"
+            ></path>
+          </g>
+          <circle
+            id="타원_5"
+            data-name="타원 5"
+            cx="9.552"
+            cy="9.552"
+            r="9.552"
+            transform="translate(35.512 17.363)"
+            fill="#f7f3ff"
+          ></circle>
+          <path
+            id="패스_30"
+            data-name="패스 30"
+            d="M425.045,87.326l2.859,2.859,5.036-5.036"
+            transform="translate(-383.93 -60.753)"
+            fill="none"
+            stroke="#8f5eff"
+            stroke-linecap="round"
+            stroke-width="1.5"
+          ></path>
+        </g>
+      </g>
+      <g id="그룹_684" data-name="그룹 684" transform="translate(5.143)">
+        <rect
+          id="사각형_498"
+          data-name="사각형 498"
+          width="26"
+          height="20"
+          rx="10"
+          transform="translate(131.611 11.611)"
+          fill="#e4ecf1"
+        ></rect>
+        <text
+          id="_0"
+          data-name="0"
+          transform="translate(144.611 26.611)"
+          fill="#232323"
+          font-size="14"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-4.32" y="0">0</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+      id="그룹_561"
+      data-name="그룹 561"
+      transform="translate(1223.389 1427.491)"
+    >
+      <g
+        transform="matrix(1, 0, 0, 1, -357.39, -222.49)"
+        filter="url(#사각형_266-2)"
+      >
+        <rect
+          id="사각형_266-11"
+          data-name="사각형 266"
+          width="174.755"
+          height="140"
+          rx="10"
+          transform="translate(357.39 222.49)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <text
+        id="전자우편-2"
+        data-name="전자우편"
+        transform="translate(87.376 108)"
+        fill="#232323"
+        font-size="19"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-32.842" y="0">전자우편</tspan>
+      </text>
+      <g
+        id="마스크_그룹_40"
+        data-name="마스크 그룹 40"
+        transform="translate(-2 -1.611)"
+        clip-path="url(#clip-path)"
+      >
+        <g
+          id="그룹_48"
+          data-name="그룹 48"
+          transform="translate(64.053 34.064)"
+        >
+          <g id="그룹_45" data-name="그룹 45" transform="translate(0 0)">
+            <path
+              id="패스_38"
+              data-name="패스 38"
+              d="M186.415,464.422a4.981,4.981,0,0,0-4.24-2.389H141.016a4.949,4.949,0,0,0-3.252,1.222l24.2,16.28Z"
+              transform="translate(-136.037 -462.033)"
+              fill="#99cdff"
+            ></path>
+            <path
+              id="패스_39"
+              data-name="패스 39"
+              d="M216.106,498.553a4.956,4.956,0,0,0,1.367-3.412V470a4.932,4.932,0,0,0-.739-2.59l-24.451,15.113Z"
+              transform="translate(-166.355 -465.025)"
+              fill="#6cbdff"
+            ></path>
+            <path
+              id="패스_40"
+              data-name="패스 40"
+              d="M135.6,464.786a4.968,4.968,0,0,0-1.727,3.757v25.137a4.948,4.948,0,0,0,.907,2.852L159.8,481.066Z"
+              transform="translate(-133.873 -463.564)"
+              fill="#6cbdff"
+            ></path>
+            <path
+              id="패스_41"
+              data-name="패스 41"
+              d="M160.937,501.461l-25.021,15.465a4.982,4.982,0,0,0,4.072,2.127h41.159a4.961,4.961,0,0,0,3.612-1.567Z"
+              transform="translate(-135.009 -483.959)"
+              fill="#99cdff"
+            ></path>
+          </g>
+          <path
+            id="패스_42"
+            data-name="패스 42"
+            d="M186.219,463.655a1.431,1.431,0,0,1-1.432,1.431H144.471a1.431,1.431,0,0,1-1.432-1.431h0a1.432,1.432,0,0,1,1.432-1.432h40.316a1.431,1.431,0,0,1,1.432,1.432Z"
+            transform="translate(-138.97 -462.139)"
+            fill="#c5e5ff"
+          ></path>
+          <g id="그룹_46" data-name="그룹 46" transform="translate(1.49 1.457)">
+            <path
+              id="패스_43"
+              data-name="패스 43"
+              d="M137.617,465.316a3.5,3.5,0,0,1-.387.341l24.4,16.008.467-.288Z"
+              transform="translate(-137.23 -465.316)"
+              fill="#3ba8f2"
+            ></path>
+          </g>
+          <g
+            id="그룹_47"
+            data-name="그룹 47"
+            transform="translate(25.429 2.156)"
+          >
+            <path
+              id="패스_44"
+              data-name="패스 44"
+              d="M215.958,466.89l-24.8,15.35.459.3,24.705-15.293C216.2,467.135,216.075,467.015,215.958,466.89Z"
+              transform="translate(-191.16 -466.89)"
+              fill="#3ba8f2"
+            ></path>
+          </g>
+        </g>
+      </g>
+      <g id="그룹_679" data-name="그룹 679">
+        <rect
+          id="사각형_498-2"
+          data-name="사각형 498"
+          width="36"
+          height="20"
+          rx="10"
+          transform="translate(126.611 11.611)"
+          fill="#e4ecf1"
+        ></rect>
+        <text
+          id="_35"
+          data-name="35"
+          transform="translate(144.611 26.611)"
+          fill="#232323"
+          font-size="14"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-8.613" y="0" class="count01">32</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+      id="그룹_565"
+      data-name="그룹 565"
+      transform="translate(1223.389 1587.49)"
+    >
+      <g
+        transform="matrix(1, 0, 0, 1, -357.39, -382.49)"
+        filter="url(#사각형_266-3)"
+      >
+        <rect
+          id="사각형_266-12"
+          data-name="사각형 266"
+          width="462.946"
+          height="235"
+          rx="10"
+          transform="translate(357.39 382.49)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <text
+        id="받은_편지함"
+        data-name="받은 편지함"
+        transform="translate(62.999 38)"
+        fill="#232323"
+        font-size="19"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-43.372" y="0">받은 편지함</tspan>
+      </text>
+      <g
+        id="그룹_569"
+        data-name="그룹 569"
+        transform="translate(20.659 74.255)"
+      >
+        <g data-type="innerShadowGroup">
+          <circle
+            id="타원_63-2"
+            data-name="타원 63"
+            cx="49.82"
+            cy="49.82"
+            r="49.82"
+            fill="#f2f2f2"
+          ></circle>
+          <g
+            transform="matrix(1, 0, 0, 1, -378.05, -456.74)"
+            filter="url(#타원_63)"
+          >
+            <circle
+              id="타원_63-3"
+              data-name="타원 63"
+              cx="49.82"
+              cy="49.82"
+              r="49.82"
+              transform="translate(378.05 456.74)"
+              fill="#fff"
+            ></circle>
+          </g>
+        </g>
+        <g
+          id="타원_65"
+          data-name="타원 65"
+          fill="none"
+          stroke="#00c9c8"
+          stroke-linecap="round"
+          stroke-width="15"
+          stroke-dasharray="30 340"
+        >
+          <circle cx="49.82" cy="49.82" r="49.82" stroke="none"></circle>
+          <circle cx="49.82" cy="49.82" r="42.32" fill="none"></circle>
+        </g>
+        <circle
+          id="타원_64"
+          data-name="타원 64"
+          cx="34.491"
+          cy="34.491"
+          r="34.491"
+          transform="translate(15.329 15.329)"
+          fill="#fff"
+        ></circle>
+        <text
+          id="_20_"
+          data-name="20
+  %"
+          transform="translate(49.822 51.819)"
+          fill="#232323"
+          font-size="21"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-12.725" y="0" class="count03">20</tspan>
+          <tspan font-size="13"><tspan x="-5.161" y="13">%</tspan></tspan>
+        </text>
+      </g>
+      <path
+        id="패스_638"
+        data-name="패스 638"
+        d="M0,0H420"
+        transform="translate(19.999 54)"
+        fill="none"
+        stroke="#ddd"
+        stroke-width="1"
+      ></path>
+      <text
+        id="_4_000MB_20GB"
+        data-name="4,000MB / 20GB"
+        transform="translate(70.478 206.428)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-49.251" y="0">4,000MB / 20GB</tspan>
+      </text>
+      <text
+        id="_광고_KT_Cloud_알림_중..."
+        data-name="(광고) KT Cloud 알림, 중..."
+        transform="translate(167.09 96.755)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">(광고) KT Cloud 알림, 중...</tspan>
+      </text>
+      <text
+        id="비즈오피스_정기_업데이트..."
+        data-name="비즈오피스 정기 업데이트..."
+        transform="translate(167.09 130.479)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">비즈오피스 정기 업데이트...</tspan>
+      </text>
+      <text
+        id="비즈오피스_정기_업데이트...-2"
+        data-name="비즈오피스 정기 업데이트..."
+        transform="translate(167.09 164.204)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">비즈오피스 정기 업데이트...</tspan>
+      </text>
+      <text
+        id="비즈오피스_정기_업데이트...-3"
+        data-name="비즈오피스 정기 업데이트..."
+        transform="translate(167.09 197.928)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">비즈오피스 정기 업데이트...</tspan>
+      </text>
+      <text
+        id="_2023.06.01"
+        data-name="2023.06.01"
+        transform="translate(372.999 96.755)"
+        fill="#8e8e8e"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">202X.06.01</tspan>
+      </text>
+      <text
+        id="_2023.05.01"
+        data-name="2023.05.01"
+        transform="translate(372.999 130.479)"
+        fill="#8e8e8e"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">202X.05.01</tspan>
+      </text>
+      <text
+        id="_2023.04.01"
+        data-name="2023.04.01"
+        transform="translate(372.999 164.204)"
+        fill="#8e8e8e"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">202X.04.01</tspan>
+      </text>
+      <text
+        id="_2023.03.01"
+        data-name="2023.03.01"
+        transform="translate(372.999 197.928)"
+        fill="#8e8e8e"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">202X.03.01</tspan>
+      </text>
+    </g>
+    <g
+      id="그룹_567"
+      data-name="그룹 567"
+      transform="translate(1706.264 1587.49)"
+    >
+      <g
+        transform="matrix(1, 0, 0, 1, -840.26, -382.49)"
+        filter="url(#사각형_266-4)"
+      >
+        <rect
+          id="사각형_266-13"
+          data-name="사각형 266"
+          width="462.946"
+          height="235"
+          rx="10"
+          transform="translate(840.26 382.49)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <rect
+        id="사각형_308"
+        data-name="사각형 308"
+        width="134.898"
+        height="39.856"
+        rx="19.928"
+        transform="translate(20 66.281)"
+        fill="#f1f9ff"
+      ></rect>
+      <text
+        id="결재할_문서"
+        data-name="결재할 문서"
+        transform="translate(63.001 38)"
+        fill="#232323"
+        font-size="19"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-43.372" y="0">결재할 문서</tspan>
+      </text>
+      <path
+        id="패스_639"
+        data-name="패스 639"
+        d="M0,0H420"
+        transform="translate(20.001 54.281)"
+        fill="none"
+        stroke="#ddd"
+        stroke-width="1"
+      ></path>
+      <text
+        id="경비신청서"
+        transform="translate(175.216 89.013)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">경비신청서</tspan>
+      </text>
+      <text
+        id="인사명령"
+        transform="translate(175.216 129.501)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">인사명령</tspan>
+      </text>
+      <text
+        id="휴가신청서"
+        transform="translate(175.216 169.99)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">휴가신청서</tspan>
+      </text>
+      <text
+        id="경비신청서-2"
+        data-name="경비신청서"
+        transform="translate(175.216 209.478)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">경비신청서</tspan>
+      </text>
+      <g
+        id="그룹_570"
+        data-name="그룹 570"
+        transform="translate(33.797 77.011)"
+      >
+        <g
+          id="타원_66"
+          data-name="타원 66"
+          fill="#fff"
+          stroke="#0082e5"
+          stroke-width="3"
+        >
+          <circle cx="9.198" cy="9.198" r="9.198" stroke="none"></circle>
+          <circle cx="9.198" cy="9.198" r="7.698" fill="none"></circle>
+        </g>
+        <g
+          id="타원_67"
+          data-name="타원 67"
+          transform="translate(0 39.856)"
+          fill="#fff"
+          stroke="#00c9c8"
+          stroke-width="3"
+        >
+          <circle cx="9.198" cy="9.198" r="9.198" stroke="none"></circle>
+          <circle cx="9.198" cy="9.198" r="7.698" fill="none"></circle>
+        </g>
+        <g
+          id="타원_68"
+          data-name="타원 68"
+          transform="translate(0 79.713)"
+          fill="#fff"
+          stroke="#ffc13c"
+          stroke-width="3"
+        >
+          <circle cx="9.198" cy="9.198" r="9.198" stroke="none"></circle>
+          <circle cx="9.198" cy="9.198" r="7.698" fill="none"></circle>
+        </g>
+        <g
+          id="타원_69"
+          data-name="타원 69"
+          transform="translate(0 119.569)"
+          fill="#fff"
+          stroke="#ff3c3c"
+          stroke-width="3"
+        >
+          <circle cx="9.198" cy="9.198" r="9.198" stroke="none"></circle>
+          <circle cx="9.198" cy="9.198" r="7.698" fill="none"></circle>
+        </g>
+        <text
+          id="하루"
+          transform="translate(24.527 13.533)"
+          fill="#232323"
+          font-size="13"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">하루</tspan>
+        </text>
+        <text
+          id="_1"
+          data-name="1"
+          transform="translate(85.844 12.533)"
+          fill="#232323"
+          font-size="12"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">1</tspan>
+        </text>
+        <text
+          id="일주일"
+          transform="translate(24.527 52.389)"
+          fill="#232323"
+          font-size="12"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">일주일</tspan>
+        </text>
+        <text
+          id="_1-2"
+          data-name="1"
+          transform="translate(85.844 52.389)"
+          fill="#232323"
+          font-size="12"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">1</tspan>
+        </text>
+        <text
+          id="_1-3"
+          data-name="1"
+          transform="translate(85.844 92.246)"
+          fill="#232323"
+          font-size="12"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">1</tspan>
+        </text>
+        <text
+          id="_3"
+          data-name="3"
+          transform="translate(85.844 132.102)"
+          fill="#ff3c3c"
+          font-size="12"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">3</tspan>
+        </text>
+        <text
+          id="한달"
+          transform="translate(24.527 93.246)"
+          fill="#232323"
+          font-size="13"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">한달</tspan>
+        </text>
+        <text
+          id="이후"
+          transform="translate(24.527 133.102)"
+          fill="#232323"
+          font-size="13"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">이후</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="그룹_566" data-name="그룹 566" transform="translate(962.79 1587.49)">
+      <g id="그룹_568" data-name="그룹 568">
+        <g
+          transform="matrix(1, 0, 0, 1, -96.79, -382.49)"
+          filter="url(#사각형_266-5)"
+        >
+          <rect
+            id="사각형_266-14"
+            data-name="사각형 266"
+            width="239.138"
+            height="235"
+            rx="10"
+            transform="translate(96.79 382.49)"
+            fill="#fff"
+          ></rect>
+        </g>
+        <text
+          id="Speed_작성"
+          data-name="Speed 작성"
+          transform="translate(20.001 38.001)"
+          fill="#232323"
+          font-size="19"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">Speed 작성</tspan>
+        </text>
+        <g id="그룹_699" data-name="그룹 699">
+          <rect
+            id="사각형_279"
+            data-name="사각형 279"
+            width="58.994"
+            height="58.994"
+            rx="8"
+            transform="translate(20 62)"
+            fill="#f1f5f8"
+          ></rect>
+          <text
+            id="메일쓰기"
+            transform="translate(29.209 107.611)"
+            fill="#232323"
+            font-size="12"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="0" y="0">메일쓰기</tspan>
+          </text>
+          <g id="_03" data-name="03" transform="translate(-266.689 -21.873)">
+            <path
+              id="패스_770"
+              data-name="패스 770"
+              d="M316.2,105.563l10.029-7.579V96.9H306.149v1.07Z"
+              transform="translate(0)"
+              fill="#5d6b72"
+            ></path>
+            <path
+              id="패스_771"
+              data-name="패스 771"
+              d="M347.442,103.972l-5.389,4.073,5.389,5.078Z"
+              transform="translate(-21.216 -4.179)"
+              fill="#5d6b72"
+            ></path>
+            <path
+              id="패스_772"
+              data-name="패스 772"
+              d="M314.233,116.063l-5.513,5.2h17.974l-5.5-5.188-3.472,2.624Z"
+              transform="translate(-1.519 -11.324)"
+              fill="#5d6b72"
+            ></path>
+            <path
+              id="패스_773"
+              data-name="패스 773"
+              d="M311.547,108.014l-5.4-4.08V113.1Z"
+              transform="translate(0 -4.157)"
+              fill="#5d6b72"
+            ></path>
+          </g>
+        </g>
+        <g id="그룹_700" data-name="그룹 700" transform="translate(70.072)">
+          <rect
+            id="사각형_279-2"
+            data-name="사각형 279"
+            width="58.994"
+            height="58.994"
+            rx="8"
+            transform="translate(20 62)"
+            fill="#f1f5f8"
+          ></rect>
+          <text
+            id="기안하기"
+            transform="translate(50.209 107.611)"
+            fill="#232323"
+            font-size="12"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="-20.742" y="0">기안하기</tspan>
+          </text>
+          <g id="_02" data-name="02" transform="translate(-160.612 -17.636)">
+            <path
+              id="패스_776"
+              data-name="패스 776"
+              d="M225.183,92.319V96.6h4.28Z"
+              transform="translate(-13.157 -1.055)"
+              fill="#5d6b72"
+            ></path>
+            <path
+              id="패스_777"
+              data-name="패스 777"
+              d="M210.611,96.959v-6.4h-7.405V107.8h13.808V96.959Z"
+              transform="translate(0 0)"
+              fill="#5d6b72"
+            ></path>
+          </g>
+        </g>
+        <g id="그룹_701" data-name="그룹 701" transform="translate(140.145)">
+          <rect
+            id="사각형_279-3"
+            data-name="사각형 279"
+            width="58.994"
+            height="58.994"
+            rx="8"
+            transform="translate(20.064 62)"
+            fill="#f1f5f8"
+          ></rect>
+          <text
+            id="일정작성"
+            transform="translate(50.209 107.611)"
+            fill="#232323"
+            font-size="12"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="-20.742" y="0">일정작성</tspan>
+          </text>
+          <g id="그룹_704" data-name="그룹 704" transform="translate(-1.999)">
+            <rect
+              id="사각형_525"
+              data-name="사각형 525"
+              width="20"
+              height="11"
+              transform="translate(41.064 78.611)"
+              fill="#5d6b72"
+            ></rect>
+            <rect
+              id="사각형_526"
+              data-name="사각형 526"
+              width="20"
+              height="4"
+              transform="translate(41.064 73.611)"
+              fill="#5d6b72"
+            ></rect>
+            <path
+              id="패스_778"
+              data-name="패스 778"
+              d="M47.037,84.5l2.825,2.825,4.049-4.049"
+              transform="translate(1 -2)"
+              fill="none"
+              stroke="#ebebeb"
+              stroke-width="1.5"
+            ></path>
+          </g>
+        </g>
+        <g id="그룹_702" data-name="그룹 702">
+          <rect
+            id="사각형_523"
+            data-name="사각형 523"
+            width="58.994"
+            height="58.994"
+            rx="8"
+            transform="translate(20 130.994)"
+            fill="#f1f5f8"
+          ></rect>
+          <text
+            id="글쓰기"
+            transform="translate(49.209 176.611)"
+            fill="#232323"
+            font-size="12"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="-15.557" y="0">글쓰기</tspan>
+          </text>
+          <g id="_13" data-name="13" transform="translate(-491.967 -53.008)">
+            <path
+              id="패스_774"
+              data-name="패스 774"
+              d="M535.4,224.521l-.683,8.156,6.722-4.67Z"
+              transform="translate(0 -19.22)"
+              fill="#5d6b72"
+            ></path>
+            <rect
+              id="사각형_524"
+              data-name="사각형 524"
+              width="11.816"
+              height="7.455"
+              transform="matrix(0.5, -0.866, 0.866, 0.5, 535.849, 204.037)"
+              fill="#5d6b72"
+            ></rect>
+            <path
+              id="패스_775"
+              data-name="패스 775"
+              d="M543.827,244.218h8.511V242.9h-6.611Z"
+              transform="translate(-5.702 -30.72)"
+              fill="#5d6b72"
+            ></path>
+          </g>
+        </g>
+        <g id="그룹_703" data-name="그룹 703" transform="translate(70.072)">
+          <rect
+            id="사각형_523-2"
+            data-name="사각형 523"
+            width="58.994"
+            height="58.994"
+            rx="8"
+            transform="translate(20 130.994)"
+            fill="#f1f5f8"
+          ></rect>
+          <text
+            id="자원예약"
+            transform="translate(49.209 176.611)"
+            fill="#232323"
+            font-size="12"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="-20.742" y="0">자원예약</tspan>
+          </text>
+          <g id="_12" data-name="12" transform="translate(-377.547 -58.476)">
+            <path
+              id="패스_779"
+              data-name="패스 779"
+              d="M418.083,199.269V214.5h5.1v-5.165h3.845v-4.592l3.029,2.451v-7.921Zm8.523,3.74h-5.077V201.7h5.077Z"
+              transform="translate(0 0)"
+              fill="#5d6b72"
+            ></path>
+            <path
+              id="패스_780"
+              data-name="패스 780"
+              d="M446.287,227.143l-7.1-5.744v3.158h-3.844v5.17h3.844v3.158Z"
+              transform="translate(-10.856 -13.918)"
+              fill="#5d6b72"
+            ></path>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_698" data-name="그룹 698" transform="translate(962.79 1842.49)">
+      <g id="그룹_568-2" data-name="그룹 568">
+        <g
+          transform="matrix(1, 0, 0, 1, -96.79, -637.49)"
+          filter="url(#사각형_266-6)"
+        >
+          <rect
+            id="사각형_266-15"
+            data-name="사각형 266"
+            width="239.138"
+            height="235"
+            rx="10"
+            transform="translate(96.79 637.49)"
+            fill="#fff"
+          ></rect>
+        </g>
+        <text
+          id="_2023.08"
+          data-name="2023.08"
+          transform="translate(115.18 47.126)"
+          fill="#232323"
+          font-size="19"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-36.877" y="0">202X.08</tspan>
+        </text>
+        <path
+          id="패스_636"
+          data-name="패스 636"
+          d="M1271.61,1388.4l-8.9,8.9,8.9,8.9"
+          transform="translate(-1237.094 -1355.911)"
+          fill="none"
+          stroke="#dcdcdc"
+          stroke-width="1.5"
+        ></path>
+        <path
+          id="패스_637"
+          data-name="패스 637"
+          d="M8.9,0,0,8.9l8.9,8.9"
+          transform="translate(213.52 50.287) rotate(-180)"
+          fill="none"
+          stroke="#dcdcdc"
+          stroke-width="1.5"
+        ></path>
+        <rect
+          id="사각형_284"
+          data-name="사각형 284"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(21.461 105.772)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_291"
+          data-name="사각형 291"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(21.461 134.898)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_298"
+          data-name="사각형 298"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(21.461 164.024)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_305"
+          data-name="사각형 305"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(21.461 193.15)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_285"
+          data-name="사각형 285"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(50.587 105.772)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_292"
+          data-name="사각형 292"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(50.587 134.898)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_299"
+          data-name="사각형 299"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(50.587 164.024)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_306"
+          data-name="사각형 306"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(50.587 193.15)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_279-4"
+          data-name="사각형 279"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(79.713 76.647)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_286"
+          data-name="사각형 286"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(79.713 105.772)"
+          fill="#00c9c8"
+        ></rect>
+        <rect
+          id="사각형_293"
+          data-name="사각형 293"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(79.713 134.898)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_300"
+          data-name="사각형 300"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(79.713 164.024)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_307"
+          data-name="사각형 307"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(79.713 193.15)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_280"
+          data-name="사각형 280"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(108.838 76.647)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_287"
+          data-name="사각형 287"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(108.838 105.772)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_294"
+          data-name="사각형 294"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(108.838 134.898)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_301"
+          data-name="사각형 301"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(108.838 164.024)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_281"
+          data-name="사각형 281"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(137.964 76.647)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_288"
+          data-name="사각형 288"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(137.964 105.772)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_295"
+          data-name="사각형 295"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(137.964 134.898)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_302"
+          data-name="사각형 302"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(137.964 164.024)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_282"
+          data-name="사각형 282"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(167.09 76.647)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_289"
+          data-name="사각형 289"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(167.09 105.772)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_296"
+          data-name="사각형 296"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(167.09 134.898)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_303"
+          data-name="사각형 303"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(167.09 164.024)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_283"
+          data-name="사각형 283"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(196.216 76.647)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_290"
+          data-name="사각형 290"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(196.216 105.772)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_297"
+          data-name="사각형 297"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(196.216 134.898)"
+          fill="#ebebeb"
+        ></rect>
+        <rect
+          id="사각형_304"
+          data-name="사각형 304"
+          width="22.994"
+          height="22.994"
+          rx="3"
+          transform="translate(196.216 164.024)"
+          fill="#ebebeb"
+        ></rect>
+      </g>
+    </g>
+    <g
+      id="그룹_562"
+      data-name="그룹 562"
+      transform="translate(1608.156 1427.491)"
+    >
+      <g
+        transform="matrix(1, 0, 0, 1, -742.16, -222.49)"
+        filter="url(#사각형_266-7)"
+      >
+        <rect
+          id="사각형_266-16"
+          data-name="사각형 266"
+          width="174.755"
+          height="140"
+          rx="10"
+          transform="translate(742.16 222.49)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <text
+        id="오늘의_일정"
+        data-name="오늘의 일정"
+        transform="translate(87.378 107.97)"
+        fill="#232323"
+        font-size="19"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-43.372" y="0">오늘의 일정</tspan>
+      </text>
+      <g
+        id="마스크_그룹_42"
+        data-name="마스크 그룹 42"
+        transform="translate(-2.233 -1.611)"
+        clip-path="url(#clip-path)"
+      >
+        <g
+          id="그룹_691"
+          data-name="그룹 691"
+          transform="translate(2.234 -8.94)"
+        >
+          <path
+            id="사각형_267"
+            data-name="사각형 267"
+            d="M5,0H47.12a5,5,0,0,1,5,5v8.8a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z"
+            transform="translate(61.316 38.324)"
+            fill="#28a8ea"
+          ></path>
+          <path
+            id="사각형_276"
+            data-name="사각형 276"
+            d="M5,0H47.12a5,5,0,0,1,5,5V30.659a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z"
+            transform="translate(113.438 82.779) rotate(180)"
+            fill="#f2f2f2"
+          ></path>
+          <rect
+            id="사각형_268"
+            data-name="사각형 268"
+            width="9.198"
+            height="9.198"
+            rx="2"
+            transform="translate(76.646 56.719)"
+            fill="#0082e5"
+          ></rect>
+          <rect
+            id="사각형_274"
+            data-name="사각형 274"
+            width="9.198"
+            height="9.198"
+            rx="2"
+            transform="translate(64.383 56.719)"
+            fill="#0082e5"
+          ></rect>
+          <rect
+            id="사각형_275"
+            data-name="사각형 275"
+            width="9.198"
+            height="9.198"
+            rx="2"
+            transform="translate(64.383 68.982)"
+            fill="#0082e5"
+          ></rect>
+          <rect
+            id="사각형_273"
+            data-name="사각형 273"
+            width="9.198"
+            height="9.198"
+            rx="2"
+            transform="translate(76.646 68.982)"
+            fill="#0082e5"
+          ></rect>
+          <rect
+            id="사각형_271"
+            data-name="사각형 271"
+            width="21.461"
+            height="21.461"
+            rx="2"
+            transform="translate(88.91 56.719)"
+            fill="#0078d4"
+          ></rect>
+          <path
+            id="패스_635"
+            data-name="패스 635"
+            d="M1308.283,1414.212l3.539,3.539,6.846-6.846"
+            transform="translate(-1213.836 -1346.879)"
+            fill="none"
+            stroke="#fff"
+            stroke-linecap="round"
+            stroke-width="2"
+          ></path>
+        </g>
+      </g>
+      <g id="그룹_690" data-name="그룹 690" transform="translate(5.144)">
+        <rect
+          id="사각형_498-3"
+          data-name="사각형 498"
+          width="26"
+          height="20"
+          rx="10"
+          transform="translate(131.611 11.611)"
+          fill="#e4ecf1"
+        ></rect>
+        <text
+          id="_3-2"
+          data-name="3"
+          transform="translate(144.611 26.611)"
+          fill="#232323"
+          font-size="14"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-4.368" y="0" class="count02">3</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+      id="그룹_563"
+      data-name="그룹 563"
+      transform="translate(1799.772 1427.491)"
+    >
+      <g
+        transform="matrix(1, 0, 0, 1, -933.77, -222.49)"
+        filter="url(#사각형_266-8)"
+      >
+        <rect
+          id="사각형_266-17"
+          data-name="사각형 266"
+          width="174.755"
+          height="140"
+          rx="10"
+          transform="translate(933.77 222.49)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <text
+        id="프로젝트"
+        transform="translate(87.378 107.97)"
+        fill="#232323"
+        font-size="19"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-32.842" y="0">프로젝트</tspan>
+      </text>
+      <g
+        id="마스크_그룹_43"
+        data-name="마스크 그룹 43"
+        transform="translate(-2.232 -1.611)"
+        clip-path="url(#clip-path)"
+      >
+        <g
+          id="그룹_694"
+          data-name="그룹 694"
+          transform="translate(65.278 30.169)"
+        >
+          <rect
+            id="사각형_77"
+            data-name="사각형 77"
+            width="48.67"
+            height="42.884"
+            rx="5"
+            transform="translate(0 0)"
+            fill="#f2f2f2"
+          ></rect>
+          <rect
+            id="사각형_78"
+            data-name="사각형 78"
+            width="7.96"
+            height="21.229"
+            rx="3.98"
+            transform="translate(6.6 17.704)"
+            fill="#8f5eff"
+          ></rect>
+          <rect
+            id="사각형_79"
+            data-name="사각형 79"
+            width="7.96"
+            height="23.209"
+            rx="3.98"
+            transform="translate(20.018 15.724)"
+            fill="#00c6e5"
+          ></rect>
+          <rect
+            id="사각형_80"
+            data-name="사각형 80"
+            width="7.96"
+            height="25.786"
+            rx="3.98"
+            transform="translate(33.816 13.147)"
+            fill="#7adb63"
+          ></rect>
+          <path
+            id="패스_48"
+            data-name="패스 48"
+            d="M800.32,151.271l-5.789.542c-.747.07-1.005.629-.574,1.243l.909,1.291-5.1,3.7H775.584a1.13,1.13,0,0,0-.4.071l-10.613,3.942a1.137,1.137,0,1,0,.791,2.132l10.422-3.871H790.14a1.14,1.14,0,0,0,.668-.217l5.368-3.895.908,1.29a.756.756,0,0,0,1.405-.1l2.57-5.037C801.4,151.691,801.068,151.2,800.32,151.271Z"
+            transform="translate(-759.356 -148.308)"
+            fill="#f64d3c"
+          ></path>
+        </g>
+      </g>
+      <g id="그룹_693" data-name="그룹 693" transform="translate(6.143)">
+        <rect
+          id="사각형_498-4"
+          data-name="사각형 498"
+          width="24"
+          height="20"
+          rx="10"
+          transform="translate(132.611 11.611)"
+          fill="#e4ecf1"
+        ></rect>
+        <text
+          id="_-"
+          data-name="-"
+          transform="translate(144.611 26.611)"
+          fill="#232323"
+          font-size="14"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-3.069" y="0">-</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+      id="그룹_564"
+      data-name="그룹 564"
+      transform="translate(1994.455 1427.491)"
+    >
+      <g
+        transform="matrix(1, 0, 0, 1, -1128.46, -222.49)"
+        filter="url(#사각형_266-9)"
+      >
+        <rect
+          id="사각형_266-18"
+          data-name="사각형 266"
+          width="174.755"
+          height="140"
+          rx="10"
+          transform="translate(1128.46 222.49)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <text
+        id="SNS"
+        transform="translate(87.377 107.97)"
+        fill="#232323"
+        font-size="19"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-18.462" y="0">SNS</tspan>
+      </text>
+      <g
+        id="마스크_그룹_44"
+        data-name="마스크 그룹 44"
+        transform="translate(-2.234 -1.611)"
+        clip-path="url(#clip-path)"
+      >
+        <g
+          id="그룹_697"
+          data-name="그룹 697"
+          transform="translate(68.442 31.305)"
+        >
+          <circle
+            id="타원_21"
+            data-name="타원 21"
+            cx="20.306"
+            cy="20.306"
+            r="20.306"
+            transform="translate(0 0)"
+            fill="#00c9c8"
+          ></circle>
+          <path
+            id="패스_64"
+            data-name="패스 64"
+            d="M8.816,0l6.775,15.022L0,9.123Z"
+            transform="translate(26.754 22.428)"
+            fill="#00c9c8"
+          ></path>
+          <g
+            id="그룹_69"
+            data-name="그룹 69"
+            transform="translate(10.153 19.383)"
+          >
+            <g id="그룹_18" data-name="그룹 18" transform="translate(0 0)">
+              <rect
+                id="사각형_24"
+                data-name="사각형 24"
+                width="4.615"
+                height="2.769"
+                transform="translate(0 0)"
+                fill="#fff"
+              ></rect>
+            </g>
+            <g id="그룹_19" data-name="그룹 19" transform="translate(7.384 0)">
+              <rect
+                id="사각형_25"
+                data-name="사각형 25"
+                width="4.615"
+                height="2.769"
+                transform="translate(0 0)"
+                fill="#fff"
+              ></rect>
+            </g>
+            <g id="그룹_20" data-name="그룹 20" transform="translate(14.768 0)">
+              <rect
+                id="사각형_26"
+                data-name="사각형 26"
+                width="4.615"
+                height="2.769"
+                transform="translate(0 0)"
+                fill="#fff"
+              ></rect>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_705" data-name="그룹 705">
+      <g transform="matrix(1, 0, 0, 1, 866, 1205)" filter="url(#사각형_527)">
+        <rect
+          id="사각형_527-2"
+          data-name="사각형 527"
+          width="945.82"
+          height="235"
+          rx="10"
+          transform="translate(357.39 637.49)"
+          fill="#fff"
+        ></rect>
+      </g>
+      <text
+        id="자원관리"
+        transform="translate(1243.389 1880.49)"
+        fill="#232323"
+        font-size="19"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="0" y="0">자원관리</tspan>
+      </text>
+      <path
+        id="패스_781"
+        data-name="패스 781"
+        d="M0,0H905.82"
+        transform="translate(1243.389 1896.49)"
+        fill="none"
+        stroke="#ddd"
+        stroke-width="1"
+      ></path>
+      <g id="그룹_706" data-name="그룹 706">
+        <rect
+          id="사각형_528"
+          data-name="사각형 528"
+          width="140"
+          height="33"
+          rx="8"
+          transform="translate(1243 1916.102)"
+          fill="#f1f5f8"
+        ></rect>
+        <text
+          id="_21"
+          data-name="21"
+          transform="translate(1253 1938.102)"
+          fill="#232323"
+          font-size="16"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">21</tspan>
+        </text>
+        <text
+          id="MON"
+          transform="translate(1341 1937.102)"
+          fill="#acb4b9"
+          font-size="13"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">MON</tspan>
+        </text>
+        <g id="그룹_1092" class="cal cal01" data-name="그룹 1092">
+          <text
+            id="기획팀_주간회의"
+            data-name="기획팀 주간회의"
+            transform="translate(1262 1976.102)"
+            fill="#232323"
+            font-size="13"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="0" y="0">기획팀 주간회의</tspan>
+          </text>
+          <circle
+            id="타원_114"
+            data-name="타원 114"
+            cx="1.5"
+            cy="1.5"
+            r="1.5"
+            transform="translate(1253 1970.102)"
+            fill="#232323"
+          ></circle>
+        </g>
+        <g
+          id="그룹_1093"
+          class="cal cal02"
+          data-name="그룹 1093"
+          transform="translate(0 27)"
+        >
+          <text
+            id="영업팀_업무보고"
+            data-name="영업팀 업무보고"
+            transform="translate(1262 1976.102)"
+            fill="#232323"
+            font-size="13"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="0" y="0">영업팀 업무보고</tspan>
+          </text>
+          <circle
+            id="타원_114-2"
+            data-name="타원 114"
+            cx="1.5"
+            cy="1.5"
+            r="1.5"
+            transform="translate(1253 1970.102)"
+            fill="#232323"
+          ></circle>
+        </g>
+      </g>
+      <g id="그룹_707" data-name="그룹 707" transform="translate(153)">
+        <rect
+          id="사각형_528-2"
+          data-name="사각형 528"
+          width="140"
+          height="33"
+          rx="8"
+          transform="translate(1243 1916.102)"
+          fill="#f1f5f8"
+        ></rect>
+        <text
+          id="_22"
+          data-name="22"
+          transform="translate(1253 1938.102)"
+          fill="#232323"
+          font-size="16"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">22</tspan>
+        </text>
+        <text
+          id="THE"
+          transform="translate(1371 1937.102)"
+          fill="#acb4b9"
+          font-size="13"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-24.807" y="0">THE</tspan>
+        </text>
+        <g
+          id="그룹_1094"
+          class="cal cal03"
+          data-name="그룹 1094"
+          transform="translate(-10)"
+        >
+          <text
+            id="협력사_방문회의"
+            data-name="협력사 방문회의"
+            transform="translate(1262 1976.102)"
+            fill="#232323"
+            font-size="13"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="0" y="0">협력사 방문회의</tspan>
+          </text>
+          <circle
+            id="타원_114-3"
+            data-name="타원 114"
+            cx="1.5"
+            cy="1.5"
+            r="1.5"
+            transform="translate(1253 1970.102)"
+            fill="#232323"
+          ></circle>
+        </g>
+      </g>
+      <g id="그룹_708" data-name="그룹 708" transform="translate(305.999)">
+        <rect
+          id="사각형_528-3"
+          data-name="사각형 528"
+          width="140"
+          height="33"
+          rx="8"
+          transform="translate(1243 1916.102)"
+          fill="#f1f5f8"
+        ></rect>
+        <text
+          id="_23"
+          data-name="23"
+          transform="translate(1253 1938.102)"
+          fill="#232323"
+          font-size="16"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">23</tspan>
+        </text>
+        <text
+          id="WED"
+          transform="translate(1371 1937.102)"
+          fill="#acb4b9"
+          font-size="13"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-28.717" y="0">WED</tspan>
+        </text>
+        <g
+          id="그룹_1095"
+          class="cal cal04"
+          data-name="그룹 1095"
+          transform="translate(-9.999)"
+        >
+          <text
+            id="품질관리팀_회의"
+            data-name="품질관리팀 회의"
+            transform="translate(1262 1976.102)"
+            fill="#232323"
+            font-size="13"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="0" y="0">품질관리팀 회의</tspan>
+          </text>
+          <circle
+            id="타원_114-4"
+            data-name="타원 114"
+            cx="1.5"
+            cy="1.5"
+            r="1.5"
+            transform="translate(1253 1970.102)"
+            fill="#232323"
+          ></circle>
+        </g>
+      </g>
+      <g id="그룹_709" data-name="그룹 709" transform="translate(460.001)">
+        <rect
+          id="사각형_528-4"
+          data-name="사각형 528"
+          width="140"
+          height="33"
+          rx="8"
+          transform="translate(1243 1916.102)"
+          fill="#f1f5f8"
+        ></rect>
+        <text
+          id="_24"
+          data-name="24"
+          transform="translate(1253 1938.102)"
+          fill="#232323"
+          font-size="16"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">24</tspan>
+        </text>
+        <text
+          id="THU"
+          transform="translate(1371 1937.102)"
+          fill="#acb4b9"
+          font-size="13"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-26.508" y="0">THU</tspan>
+        </text>
+      </g>
+      <g id="그룹_710" data-name="그룹 710" transform="translate(613)">
+        <rect
+          id="사각형_528-5"
+          data-name="사각형 528"
+          width="140"
+          height="33"
+          rx="8"
+          transform="translate(1243 1916.102)"
+          fill="#f1f5f8"
+        ></rect>
+        <text
+          id="_25"
+          data-name="25"
+          transform="translate(1253 1938.102)"
+          fill="#232323"
+          font-size="16"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">25</tspan>
+        </text>
+        <text
+          id="FRI"
+          transform="translate(1371 1937.102)"
+          fill="#acb4b9"
+          font-size="13"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-18.535" y="0">FRI</tspan>
+        </text>
+        <g
+          id="그룹_1096"
+          class="cal cal05"
+          data-name="그룹 1096"
+          transform="translate(-10)"
+        >
+          <text
+            id="협력사_방문회의-2"
+            data-name="협력사 방문회의"
+            transform="translate(1262 1976.102)"
+            fill="#232323"
+            font-size="13"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="0" y="0">협력사 방문회의</tspan>
+          </text>
+          <circle
+            id="타원_114-5"
+            data-name="타원 114"
+            cx="1.5"
+            cy="1.5"
+            r="1.5"
+            transform="translate(1253 1970.102)"
+            fill="#232323"
+          ></circle>
+        </g>
+        <g
+          id="그룹_1097"
+          class="cal cal06"
+          data-name="그룹 1097"
+          transform="translate(-10 27)"
+        >
+          <text
+            id="유통팀_업무보고"
+            data-name="유통팀 업무보고"
+            transform="translate(1262 1976.102)"
+            fill="#232323"
+            font-size="13"
+            font-family="Pretendard-Medium, Pretendard"
+            font-weight="500"
+          >
+            <tspan x="0" y="0">유통팀 업무보고</tspan>
+          </text>
+          <circle
+            id="타원_114-6"
+            data-name="타원 114"
+            cx="1.5"
+            cy="1.5"
+            r="1.5"
+            transform="translate(1253 1970.102)"
+            fill="#232323"
+          ></circle>
+        </g>
+      </g>
+      <g id="그룹_711" data-name="그룹 711" transform="translate(766)">
+        <rect
+          id="사각형_528-6"
+          data-name="사각형 528"
+          width="140"
+          height="33"
+          rx="8"
+          transform="translate(1243 1916.102)"
+          fill="#f1f5f8"
+        ></rect>
+        <text
+          id="_26"
+          data-name="26"
+          transform="translate(1253 1938.102)"
+          fill="#232323"
+          font-size="16"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="0" y="0">26</tspan>
+        </text>
+        <text
+          id="SAT"
+          transform="translate(1371 1937.102)"
+          fill="#acb4b9"
+          font-size="13"
+          font-family="Pretendard-Medium, Pretendard"
+          font-weight="500"
+        >
+          <tspan x="-23.594" y="0">SAT</tspan>
+        </text>
+      </g>
+      <text
+        id="_2023.08.21_2023.08.26"
+        data-name="2023.08.21 ~ 2023.08.26"
+        transform="translate(2149 1877.99)"
+        fill="#232323"
+        font-size="13"
+        font-family="Pretendard-Medium, Pretendard"
+        font-weight="500"
+      >
+        <tspan x="-151.227" y="0">202X.08.21 ~ 202X.08.26</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
