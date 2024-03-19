@@ -10482,13 +10482,14 @@
         },
         onToggle: () => {},
         onLeaveBack: () => {
-          gsap.to(".scrollwrap", { paddingTop: "100vh" });
+          gsap.to(".scrollwrap", { paddingTop: "100vh", marginTop: 0 });
           let ht = $(".main-sec01 .wrap").offset().top;
           gsap.to("html,body", {
             scrollTop: ht,
             duration: 0.5,
             ease: "linear",
           });
+          ScrollTrigger.refresh(true);
         },
       });
       gsap.utils
@@ -10516,6 +10517,18 @@
             ScrollTrigger.refresh(true);
           },
         });
+      });
+      gsap.to(".scroll:first-child", {
+        scrollTrigger: {
+          trigger: ".scroll:first-child",
+          start: "top 95%",
+          // end: "bottom 30% ",
+          // markers: true,
+          onStart: () => {
+            gsap.to(".scrollwrap", { marginTop: 0 });
+            ScrollTrigger.refresh(true);
+          },
+        },
       });
     </script>
   </body>

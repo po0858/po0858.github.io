@@ -13,6 +13,9 @@
   font-family: "Pretendard-Regular", Arial;
   word-break: keep-all;
 }
+body {
+  font-size: 16px;
+}
 ul {
   list-style: none;
 }
@@ -20,6 +23,11 @@ a {
   text-decoration: none;
   color: #222;
   color: inherit;
+}
+li,
+a,
+span {
+  font-size: inherit;
 }
 header {
   position: fixed;

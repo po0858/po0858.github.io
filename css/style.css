@@ -14,6 +14,7 @@ body {
   width: 100%;
   /* height: 400vh; */
   /* background: #0e0d0d; */
+  font-size: 16px;
 }
 ul {
   list-style: none;
@@ -387,6 +388,7 @@ section.works [class^="imgbox-"] .text p {
 section.works [class^="imgbox-"] .text span {
   color: #cec8c8;
   font-weight: 300;
+  font-size: 16px;
 }
 section.works [class^="imgbox-"] a:hover .text span {
   animation: arrowAni 0.5s infinite alternate;
