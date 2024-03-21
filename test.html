@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/plugin/jquery-3.7.1.min.js"></script>
+    <script src="js/plugin/scrolloverflow.js"></script>
+    <script src="js/plugin/jquery.fullpage.min.js"></script>
+    <style>
+      .section {
+        height: 100vh;
+      }
+      .section.scrollable {
+        height: 200vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section">asd</div>
+      <div class="section scrollable">asd</div>
+      <div class="section">asd</div>
+    </div>
+  </body>
+  <script>
+    $("#fullpage").fullpage({
+      anchors: ["anchor1", "anchor2", "anchor3"],
+      menu: "#menu",
+      scrollOverflow: true,
+    });
+  </script>
+</html>
