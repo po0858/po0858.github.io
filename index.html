@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/jquery.fullpage.min.js"></script>
+    <script src="js/plugin/jquery-3.7.1.min.js"></script>
+    <script src="js/plugin/jquery.fullpage.min.js"></script>
   </head>
   <body>
     <header id="header">
@@ -257,22 +257,6 @@
         </div>
       </section>
     </div>
-    <script>
-      $("#fullpage").fullpage({
-        anchors: ["anchor1", "anchor2", "anchor3", "anchor4"],
-        menu: "#menu",
-      });
-      let ht = $("header").outerHeight(true);
-      $(".wrap").css({ paddingTop: ht });
-      $(".gnb li").hover(
-        function () {
-          $(".gnb a").css({ opacity: "0.6" });
-          $(this).children("a").css({ opacity: "1" });
-        },
-        function () {
-          $(".gnb a").css({ opacity: "1" });
-        }
-      );
-    </script>
+    <script src="js/common.js"></script>
   </body>
 </html>
