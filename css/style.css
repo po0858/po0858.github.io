@@ -45,9 +45,6 @@ header {
   width: 70%;
   margin: 0 auto;
 }
-.fp-tableCell {
-  display: initial;
-}
 header nav {
   width: 100%;
   height: 60px;
@@ -87,12 +84,12 @@ section.info {
 }
 section .title {
   position: relative;
-  padding: 10px 0 0px;
+  padding-bottom: 30px;
   color: #d2cfcf;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 40px;
-  text-align: left;
+  text-align: center;
   letter-spacing: 5px;
 }
 section .top ul {
@@ -102,7 +99,7 @@ section .top ul {
   align-items: center;
   color: #d2cfcf;
   font-size: 12px;
-  padding: 20px 0 10px;
+  padding: 20px 0 40px;
 }
 section .wrap {
   position: relative;
@@ -240,9 +237,6 @@ section.about .license .text div {
 section.about .license .text div {
   margin-bottom: 10px;
 }
-section.skills .subtitle-1 {
-  margin-top: 60px;
-}
 section.skills .subtitle {
   height: 100px;
   color: #cbd1db;
@@ -274,10 +268,6 @@ section.skills .decs {
   width: 600px;
   color: #fff;
 }
-section.works .wrap {
-  padding-bottom: 50px;
-  height: 200vh;
-}
 section.works [class^="imgbox-"] {
   width: 90%;
   margin: 0 auto;
@@ -289,11 +279,14 @@ section.works [class^="imgbox-"] img {
 section.works .bg {
   position: relative;
   border-radius: 5px;
-  height: 330px;
+  max-height: 330px;
+  height: 33vh;
 }
 section.works .bg img {
   max-width: 370px;
-  height: 210px;
+  width: 80%;
+  max-height: 210px;
+  height: auto;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -332,7 +325,7 @@ section.works .bg .workdecs li.tag span:first-child {
   margin-right: 30px;
 }
 section.works .imgbox-1 {
-  margin: 0 auto 20px;
+  margin: 0 auto 25px;
   max-width: 940px;
 }
 section.works .imgbox-1 .bg {
@@ -467,7 +460,6 @@ section.works [class^="imgbox-"] a:active .workdecs {
 }
 @media screen and (max-width: 1280px) {
   section .title {
-    /* font-size: 36px; */
     padding-top: 0px;
   }
   section.info .wrap {
@@ -484,10 +476,6 @@ section.works [class^="imgbox-"] a:active .workdecs {
   }
   section.info .text p:nth-of-type(2) {
     margin-bottom: 60px;
-  }
-  section.info .info-title h1 {
-    font-size: 50px;
-    line-height: 50px;
   }
   section.about .imgbox {
     width: 300px;
@@ -524,9 +512,10 @@ section.works [class^="imgbox-"] a:active .workdecs {
 }
 @media screen and (max-width: 1024px) {
   section .title {
-    /* font-size: 20px; */
-    /* line-height: 20px; */
     padding: 10px 0;
+    font-size: 40px;
+    padding-bottom: 100px;
+    line-height: initial;
   }
   section.about .logo .text p {
     font-size: 30px;
@@ -570,7 +559,9 @@ section.works [class^="imgbox-"] a:active .workdecs {
   }
   section.about .conbox {
     flex-direction: column;
-    gap: 0px;
+  }
+  section.about .conbox > div {
+    gap: 10px;
   }
   section.about .wrap {
     padding-bottom: 50px;
@@ -599,6 +590,9 @@ section.works [class^="imgbox-"] a:active .workdecs {
   section.works .imgbox-2 a {
     width: 100%;
   }
+  section.works .wrap {
+    margin-bottom: 30px;
+  }
   .footer .title {
     font-size: 30px;
     line-height: 30px;
@@ -606,8 +600,11 @@ section.works [class^="imgbox-"] a:active .workdecs {
   }
 }
 @media screen and (max-width: 480px) {
+  section .title {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
   section.about .imgbox svg {
-    /* width: 200px; */
   }
   section.skills .subtitle span {
     font-size: 24px;
