@@ -6,7 +6,6 @@ function afterload() {
   let i = 1;
   let formatted_i = ("0" + i).slice(-2);
   $(".container").click((e) => {
-    console.log(i);
     let x = e.pageX;
     let y = e.pageY;
     let randomScale = Math.random() * (1.1 - 0.4) + 0.4;
@@ -42,29 +41,42 @@ function afterload() {
     } else i = 1;
   });
   // 마우스 변경
+  let mousecon = true;
   $(document).mousemove((e) => {
-    let x = e.pageX;
-    let y = e.pageY;
-    gsap.to(".mouse", {
-      left: x,
-      top: y,
-      duration: 0.7,
-      ease: "slow(0.7,0.7,false)",
-    });
-    $(".cursor").css({ left: x, top: y });
+    if (mousecon) {
+      let x = e.pageX;
+      let y = e.pageY;
+      gsap.to(".mouse", {
+        left: x,
+        top: y,
+        duration: 0.7,
+        ease: "slow(0.7,0.7,false)",
+      });
+      $(".cursor").css({ left: x, top: y });
+    }
   });
-  $("canvas").hover(
-    () => {
-      $("html,body").css({ cursor: "none" });
+  function mouse() {
+    if (mousecon) {
+      // $("html,body").css({ cursor: "none" });
       $(".mouse").removeClass("hide");
       $(".cursor").removeClass("hide");
-    },
-    () => {
+    } else {
       $("html,body").css({ cursor: "auto" });
       $(".mouse").addClass("hide");
       $(".cursor").addClass("hide");
     }
-  );
+  }
+  mouse();
+  // $(".swiper").hover(
+  //   () => {
+  //     mousecon = true;
+  //     mouse();
+  //   },
+  //   () => {
+  //     mousecon = false;
+  //     mouse();
+  //   }
+  // );
   // ripples
   $(".container").ripples({
     resolution: 512,
@@ -102,10 +114,10 @@ function afterload() {
   $("header nav").mouseenter(() => {
     $("header")
       .stop()
-      .animate({ height: headerht1 + headerht2 }, 600);
+      .animate({ height: headerht1 + headerht2 }, 200);
   });
   $("header").mouseleave(() => {
-    $("header").stop().animate({ height: headerht1 }, 400);
+    $("header").stop().animate({ height: headerht1 }, 200);
   });
   $("header .nav-1depth > li").hover(
     function () {
@@ -124,7 +136,8 @@ function afterload() {
         $("header").height(185);
         $("header").css({ borderBottom: "none" });
       } else {
-        $("header").height($("header .logo").outerHeight(true));
+        // $("header").height($("header .logo").outerHeight(true));
+        $("header").height(0);
         $("header").css({ borderBottom: "1px solid #414141" });
       }
     }
@@ -134,11 +147,11 @@ function afterload() {
 
   $("header").hide();
   $(".topcon .imgbox").click(() => {
+    mousecon = false;
+    mouse();
     $(".top").slideUp();
     $(".head-banner").hide();
     $("body").css({ height: "auto" });
-    $(".mouse").addClass("hide");
-    $(".cursor").addClass("hide");
     $(".topcon .imgbox").css({ transform: "translate(-50%, 0)" });
     let startcon = gsap.timeline({
       onComplete: () => {
@@ -151,6 +164,7 @@ function afterload() {
         {
           animation: "none",
           width: 1280,
+          paddingTop: headerht1,
         },
         "start"
       )
@@ -164,7 +178,7 @@ function afterload() {
       .to(
         ".topcon",
         {
-          marginTop: headerht1,
+          paddingTop: headerht1,
         },
         "start"
       )
@@ -176,60 +190,12 @@ function afterload() {
         opacity: 1,
         onStart: () => {
           $("header").show().addClass("white");
+          $(".topcon .imgbox .textbox").css({
+            paddingTop: headerht1 + 100 + "px",
+          });
         },
       });
   });
-
-  // let afterConBool = true;
-  // let startcon = gsap.timeline({
-  //   scrollTrigger: {
-  //     trigger: ".top",
-  //     start: "bottom bottom",
-  //     end: "+=700",
-  //     markers: true,
-  //     // scrub: 1,
-  //     onStart: () => {},
-  //     onLeave: () => {
-  //       gsap.to(".topcon .imgbox .textbox", {
-  //         delay: 0.2,
-  //         opacity: 1,
-  //         repeat: 1,
-  //         onStart: () => {
-  //           if (afterConBool) {
-  //             $("html,body").animate({ scrollTop: "0" }, 100);
-  //             $(".top").slideUp();
-  //             $(".head-banner").hide();
-  //             $(".topcon").animate({ marginTop: headerht1 }, 100);
-  //           }
-  //         },
-  //         onComplete: (event) => {
-  //           if (afterConBool) {
-  // $(".mouse").addClass("hide");
-  // $(".cursor").addClass("hide");
-  //             $("html,body").css({ scrollTop: "0" });
-  //             afterConBool = !afterConBool;
-  //           }
-  //         },
-  //       });
-  //       $("header").show().addClass("white");
-  //     },
-  //   },
-  // });
-  // startcon
-  //   .to(".topcon .imgbox", {
-  //     width: 1280,
-  //     transform: "translate(-50%)",
-  //   })
-  //   .to(".top", {
-  //     opacity: 0,
-  //   })
-  //   .to(
-  //     "body",
-  //     {
-  //       backgroundColor: "#000",
-  //     },
-  //     "start"
-  //   );
 }
 // 로딩창
 $(function () {
