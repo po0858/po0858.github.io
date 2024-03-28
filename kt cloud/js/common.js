@@ -12,6 +12,19 @@ $(function () {
   $("#banner-hide").click(function () {
     $(".top-banner").addClass("hide");
   });
+  //
+  let gnbtext;
+  $(".gnb-1depth > li").hover(
+    function () {
+      if ($(this).children("a").attr("href") == "#") {
+        gnbtext = $(this).children("a[href='#']").html();
+        $(this).children("a[href='#']").html("준비중");
+      }
+    },
+    function () {
+      $(this).children("a[href='#']").html(gnbtext);
+    }
+  );
   // tab
   $(".sec01-con >ul >li").hide();
   function sec01Tab() {

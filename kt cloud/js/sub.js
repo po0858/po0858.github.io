@@ -9,6 +9,20 @@ $(function () {
       $(this).removeClass("on");
     }
   );
+  // header
+  let gnbtext;
+  $(".gnb-1depth > li").hover(
+    function () {
+      if ($(this).children("a").attr("href") == "#") {
+        gnbtext = $(this).children("a[href='#']").html();
+        $(this).children("a[href='#']").html("준비중");
+      }
+    },
+    function () {
+      $(this).children("a[href='#']").html(gnbtext);
+    }
+  );
+  //
   gsap.utils.toArray("section").forEach((value, index) => {
     ScrollTrigger.create({
       trigger: value,
@@ -34,9 +48,13 @@ $(function () {
         trigger: ".con02",
         start: "top 50%",
         end: "bottom ",
-        markers: true,
+        // markers: true,
       },
     }
   );
-  //scroll
+  $(".extra .swiper .imgbox").each(function () {
+    if ($(this).children().length > 1) {
+      $(this).siblings(".textbox").css({ paddingLeft: "100px" });
+    }
+  });
 });
