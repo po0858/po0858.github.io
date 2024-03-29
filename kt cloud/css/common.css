@@ -141,8 +141,8 @@ nav ul[class^="gnb"] > li {
   font-size: 20px;
   position: relative;
 }
-nav ul[class^="gnb"] > li:not(:last-child) {
-  margin-right: 60px;
+nav ul[class^="gnb"] > li:not(:last-child) > a {
+  padding-right: 90px;
 }
 nav ul[class^="gnb"] > li:hover {
   color: var(--main-mint-color);
@@ -218,6 +218,24 @@ nav ul[class^="3depth"] li:not(:last-child) {
   line-height: 48px;
   border-radius: 18px;
 }
+.sidenav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 26px;
+  height: 26px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.sidenav span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background: #00c6e5;
+}
 /* footer */
 footer {
   position: relative;
@@ -285,4 +303,60 @@ footer .add p {
   line-height: 60px;
   font-size: 14px;
   color: #7ba1bc;
+}
+/* 반응형 */
+@media screen and (max-width: 1800px) {
+  .header-wrap {
+    padding: 0 20px;
+  }
+  nav ul[class^="gnb"] > li {
+    font-size: 16px;
+  }
+  nav ul[class^="gnb"] > li:not(:last-child) > a {
+    padding-right: 65px;
+  }
+  .header-right p {
+    font-size: 13px;
+    width: 320px;
+  }
+}
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1440px) {
+  nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header-wrap {
+    height: 60px;
+  }
+  .header-logo {
+    height: 60px;
+  }
+  .header-logo img {
+    width: 100px;
+  }
+  .header-right {
+    height: 60px;
+  }
+  .header-right p {
+    font-size: 11px;
+    width: 270px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .header-right a {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+  .header-right p {
+    display: none;
+  }
 }
