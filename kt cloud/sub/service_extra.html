@@ -29,9 +29,15 @@
                 <li>
                   <a href="service_extra.html">부가서비스</a>
                   <ul class="3depth">
-                    <li><a href="service_extra.html#ser18">화상회의</a></li>
                     <li>
-                      <a href="service_extra.html#ser19">Office connect</a>
+                      <a href="service_extra.html#ser18" data-slide="ser18"
+                        >화상회의</a
+                      >
+                    </li>
+                    <li>
+                      <a href="service_extra.html#ser19" data-slide="ser19"
+                        >Office connect</a
+                      >
                     </li>
                   </ul>
                 </li>
@@ -433,7 +439,7 @@
                 </p>
               </div>
             </li>
-            <li class="swiper-slide" id="ser18">
+            <li class="swiper-slide">
               <div class="imgbox">
                 <img src="../images/sub/ser18_img.png" alt="ser" />
               </div>
@@ -451,7 +457,7 @@
                 </p>
               </div>
             </li>
-            <li class="swiper-slide" id="ser19">
+            <li class="swiper-slide">
               <div class="imgbox">
                 <img src="../images/sub/ser19_img.png" alt="ser" />
               </div>
@@ -532,15 +538,13 @@
           },
           on: {
             slideChangeTransitionStart: function () {
-              console.log("slideChangeTransitionStart event fired");
               document.querySelector(".extra").classList.remove("on");
             },
             slideChangeTransitionEnd: () => {
-              console.log("slideChangeTransitionEnd event fired");
               $(".extra").addClass("on");
             },
           },
-          speed: 700,
+          speed: 400,
         });
         function moveToSlideFromHash() {
           const hash = window.location.hash;
@@ -551,6 +555,15 @@
         }
         document.addEventListener("DOMContentLoaded", function () {
           moveToSlideFromHash();
+        });
+        $(".3depth a").click(function () {
+          let dataSlide = $(this).data("slide");
+          console.log(dataSlide);
+          if (dataSlide) {
+            let dataSlideIndex = parseInt(dataSlide.replace("ser", ""), 10) - 1;
+            console.log(dataSlideIndex);
+            swiper.slideTo(dataSlideIndex);
+          }
         });
       </script>
       <section class="contact">

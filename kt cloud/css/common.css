@@ -220,7 +220,7 @@ nav ul[class^="3depth"] li:not(:last-child) {
 }
 .sidenav {
   position: relative;
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
@@ -321,6 +321,9 @@ footer .add p {
   }
 }
 @media screen and (max-width: 1600px) {
+  .sidenav {
+    display: flex;
+  }
 }
 @media screen and (max-width: 1440px) {
   nav {
