@@ -252,8 +252,6 @@ footer .copy {
   justify-content: space-between;
   padding-top: 70px;
 }
-footer .copy > div {
-}
 footer .copy .left {
   font-size: 14px;
   color: #90b0c7;
@@ -263,6 +261,13 @@ footer .copy .left img {
 }
 footer .copy .left p {
   line-height: 37px;
+}
+footer .copy .left i {
+  display: inline-block;
+  margin: 0 10px;
+  background: #527288;
+  height: 10px;
+  width: 1px;
 }
 footer .copy .right {
   color: #90b0c7;
@@ -276,7 +281,6 @@ footer .copy .right ul:last-child {
 }
 footer .copy .right ul:last-child li {
   width: 200px;
-  height: 79px;
   background: #123046;
   padding: 17px 24px;
   box-sizing: border-box;
@@ -287,6 +291,7 @@ footer .copy .right ul:last-child li:first-child {
 }
 footer .copy .right ul:last-child p {
   font-size: 14px;
+  margin-bottom: 8px;
 }
 footer .copy .right ul:last-child a {
   font-size: 18px;
@@ -330,6 +335,35 @@ footer .add p {
     display: none;
   }
 }
+@media screen and (max-width: 1250px) {
+  footer .wrap {
+    padding: 0 20px;
+  }
+  footer .copy .right ul:last-child li {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  footer .copy .left {
+    font-size: 12px;
+  }
+  footer .copy .left p {
+    line-height: 28px;
+  }
+  footer .copy .right ul a {
+    font-size: 14px;
+  }
+  footer .copy .right ul:last-child li {
+    width: 140px;
+    padding: 15px;
+  }
+  footer .copy .right ul:last-child p {
+    font-size: 11px;
+  }
+  footer .copy .right ul:last-child a {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 960px) {
   .header-wrap {
     height: 60px;
@@ -339,6 +373,22 @@ footer .add p {
   }
   .header-logo img {
     width: 100px;
+  }
+  footer .copy {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  footer .copy .left i {
+    display: block;
+    width: 0;
+    height: 0;
+  }
+  footer .copy .left {
+    margin-bottom: 30px;
+  }
+  footer .copy .left img {
+    width: 90px;
+    margin-bottom: 20px;
   }
   .header-right {
     height: 60px;
@@ -355,11 +405,33 @@ footer .add p {
     line-height: 30px;
     font-size: 13px;
   }
+  footer .copy .right ul:first-child {
+    justify-content: start;
+    gap: 20px;
+  }
+  footer .copy .right ul:last-child {
+    margin-top: 20px;
+  }
+  footer .copy .right ul:last-child li {
+    flex-grow: 1;
+  }
+  footer .add {
+    height: 40px;
+  }
+  footer .add p {
+    line-height: 40px;
+  }
 }
 @media screen and (max-width: 768px) {
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .header-right p {
     display: none;
+  }
+  footer .add {
+    height: auto;
+  }
+  footer .add p {
+    line-height: 40px;
   }
 }

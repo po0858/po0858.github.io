@@ -1,7 +1,7 @@
 // common
 $(function () {
   // header
-  if (window.matchMedia("(max-width: 1250px)").matches) {
+  if (window.matchMedia("(min-width: 1250px)").matches) {
     $(".header-wrap").hover(
       function () {
         $(this).addClass("on");
@@ -39,6 +39,8 @@ $(function () {
       $(this).siblings().find(".sec01-tab-2depth").slideUp(500);
       $(this).find(".sec01-tab-2depth").slideDown(500);
     } else {
+      $(".sec01-info-1depth>li").removeClass("on");
+      $(".sec01-info-1depth>li").eq($(this).index()).addClass("on");
     }
   });
   // window.addEventListener("resize", checkWindowSize);
