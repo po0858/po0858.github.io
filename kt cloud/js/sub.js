@@ -1,28 +1,5 @@
 // sub
 $(function () {
-  // header
-  $(".header-wrap").hover(
-    function () {
-      $(this).addClass("on");
-    },
-    function () {
-      $(this).removeClass("on");
-    }
-  );
-  // header
-  let gnbtext;
-  $(".gnb-1depth > li").hover(
-    function () {
-      if ($(this).children("a").attr("href") == "#") {
-        gnbtext = $(this).children("a[href='#']").html();
-        $(this).children("a[href='#']").html("준비중");
-      }
-    },
-    function () {
-      $(this).children("a[href='#']").html(gnbtext);
-    }
-  );
-  //
   gsap.utils.toArray("section").forEach((value, index) => {
     ScrollTrigger.create({
       trigger: value,
