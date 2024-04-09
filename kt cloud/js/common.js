@@ -1,35 +1,31 @@
 // common
 $(function () {
   // header
-  if (window.matchMedia("(min-width: 1250px)").matches) {
-    $(".header-wrap").hover(
-      function () {
-        $(this).addClass("on");
-      },
-      function () {
-        $(this).removeClass("on");
-      }
-    );
-  }
-
-  $("#banner-hide").click(function () {
-    $(".top-banner").addClass("hide");
-  });
-  //
-  let gnbtext;
-  $(".gnb-1depth > li").hover(
+  $(".header-wrap").hover(
     function () {
-      if ($(this).children("a").attr("href") == "#") {
-        gnbtext = $(this).children("a[href='#']").html();
-        $(this).children("a[href='#']").html("준비중");
+      if (window.matchMedia("(min-width: 1440px)").matches) {
+        $(this).addClass("on");
       }
     },
     function () {
-      $(this).children("a[href='#']").html(gnbtext);
+      $(this).removeClass("on");
     }
   );
+  $(".side-1depth>li").click(function (e) {
+    $(".side-1depth>li").removeClass("on");
+    $(this).addClass("on");
+    e.preventDefault();
+  });
+  $("#banner-hide").click(function () {
+    $(".top-banner").addClass("hide");
+  });
+  $(".sidenav").click(() => {
+    $(".side-allmenu").addClass("on");
+  });
+  $(".side-allmenu .close").click(() => {
+    $(".side-allmenu").removeClass("on");
+  });
   // tab
-
   $(".sec01-tab-1depth>li").click(function () {
     $(".sec01-tab-1depth>li").removeClass("on");
     $(this).addClass("on");
@@ -103,6 +99,18 @@ $(function () {
     },
   });
   //scroll
+  window.addEventListener("resize", function () {
+    function refresh() {
+      ScrollTrigger.refresh();
+    }
+    setTimeout(refresh, 2000);
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+    function refresh() {
+      ScrollTrigger.refresh();
+    }
+    setTimeout(refresh, 2000);
+  });
   ScrollTrigger.create({
     trigger: ".visual",
     start: "top 0%",

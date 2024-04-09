@@ -55,13 +55,15 @@ a {
   overflow: hidden;
 }
 .top-banner a {
-  display: block;
+  display: flex;
   width: 100%;
   height: 100%;
+  align-items: center;
+  background: #000;
 }
 .top-banner img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .top-wrap {
   position: absolute;
@@ -147,6 +149,9 @@ nav ul[class^="gnb"] > li:not(:last-child) > a {
 nav ul[class^="gnb"] > li:hover {
   color: var(--main-mint-color);
 }
+nav ul[class^="gnb"] > li:hover a[href="#"] {
+  cursor: not-allowed;
+}
 nav ul[class^="gnb"] > li:after {
   content: "";
   display: block;
@@ -163,6 +168,7 @@ nav ul[class^="gnb"] > li:hover::after {
 }
 nav ul[class^="gnb"] > li > a {
   line-height: 90px;
+  white-space: nowrap;
 }
 nav ul[class^="sub"] {
   margin-top: 38px;
@@ -235,6 +241,92 @@ nav ul[class^="3depth"] li:not(:last-child) {
   height: 12px;
   border-radius: 2px;
   background: #00c6e5;
+}
+.side-allmenu {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #fff;
+  width: 250px;
+  height: 100vh;
+  padding: 100px 0 60px 40px;
+  transform: translateX(100%);
+  box-sizing: border-box;
+  overflow: scroll;
+  transition: all 0.3s;
+}
+.side-allmenu.on {
+  transform: translateX(0%);
+}
+.side-allmenu .close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  right: 20px;
+  top: 20px;
+}
+.side-allmenu .close span {
+  display: block;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  background: #000;
+}
+.side-allmenu .close span:first-child {
+  transform: rotate(45deg);
+  transform-origin: 50% 0;
+}
+.side-allmenu .close span:last-child {
+  transform: rotate(-45deg);
+}
+.side-allmenu .side-1depth > li {
+  margin-bottom: 30px;
+}
+.side-allmenu .side-1depth > li > a::after {
+  content: "";
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0px;
+  height: 2px;
+  background: var(--main-mint-color);
+  transition: all 0.3s 0.3s;
+}
+.side-allmenu .side-1depth > li:hover > a {
+  color: var(--main-mint-color);
+}
+.side-allmenu .side-1depth > li:hover > a::after {
+  width: 30px;
+}
+.side-allmenu .side-1depth > li > a {
+  position: relative;
+  font-weight: 600;
+  color: #333;
+  transition: all 0.3s;
+}
+.side-allmenu .side-1depth > li .side-2depth {
+  display: none;
+  margin-top: 20px;
+}
+.side-allmenu .side-1depth > li .side-2depth > li {
+  color: #565b6b;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+.side-allmenu .side-1depth > li .side-2depth > li:hover {
+  opacity: 1;
+}
+.side-allmenu .side-1depth > li.on .side-2depth {
+  display: block;
+}
+.side-allmenu .side-1depth > li .side-2depth li:not(:last-child) {
+  margin-bottom: 12px;
 }
 /* footer */
 footer {
@@ -326,13 +418,13 @@ footer .add p {
   }
 }
 @media screen and (max-width: 1600px) {
-  .sidenav {
-    display: flex;
-  }
 }
 @media screen and (max-width: 1440px) {
   nav {
     display: none;
+  }
+  .sidenav {
+    display: flex;
   }
 }
 @media screen and (max-width: 1250px) {
