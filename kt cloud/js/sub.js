@@ -1,5 +1,6 @@
 // sub
 $(function () {
+  $(".top-banner").addClass("hide");
   gsap.utils.toArray("section").forEach((value, index) => {
     ScrollTrigger.create({
       trigger: value,
