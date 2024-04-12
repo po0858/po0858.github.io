@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="js/plugin/jquery-3.7.1.min.js"></script>
+    <script src="js/plugin/gsap.min.js"></script>
     <link rel="stylesheet" href="css/common.css" />
     <link
       rel="stylesheet"
@@ -121,5 +123,117 @@
         </div>
       </div>
     </header>
+    <section class="snb">
+      <div class="bg"></div>
+      <ul class="snb-1depth">
+        <li>
+          <a href="#"><span>i-hub</span></a>
+          <ul class="snb-2depth">
+            <li>
+              <a href="#"><span>intro</span></a>
+            </li>
+            <li>
+              <a href="#"><span>Cloud API</span></a>
+            </li>
+            <li>
+              <a href="#"><span>Smart API</span></a>
+            </li>
+            <li>
+              <a href="#"><span>Local Scraping</span></a>
+            </li>
+            <li>
+              <a href="#"><span>Server Scraping</span></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span>서비스패키지</span></a>
+        </li>
+        <li>
+          <a href="#"><span>RPA</span></a>
+          <ul class="snb-2depth">
+            <li>
+              <a href="#"><span>RPA소개</span></a>
+            </li>
+            <li>
+              <a href="#"><span>주요기능</span></a>
+            </li>
+            <li>
+              <a href="#"><span>적용분야</span></a>
+            </li>
+            <li>
+              <a href="#"><span>기대효과</span></a>
+            </li>
+            <li>
+              <a href="#"><span>도입사례</span></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span>적용사례</span></a>
+          <ul class="snb-2depth">
+            <li>
+              <a href="#"><span>적용사례</span></a>
+            </li>
+            <li>
+              <a href="#"><span>레퍼런스</span></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span>도입문의</span></a>
+          <ul class="snb-2depth">
+            <li>
+              <a href="#"><span>도입문의</span></a>
+            </li>
+            <li>
+              <a href="#"><span>스타트업 지원센터</span></a>
+            </li>
+            <li>
+              <a href="#"><span>데이터바우처</span></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span>Infotech</span></a>
+          <ul class="snb-2depth">
+            <li>
+              <a href="#"><span>회사소개</span></a>
+            </li>
+            <li>
+              <a href="#"><span>연혁</span></a>
+            </li>
+            <li>
+              <a href="#"><span>PR</span></a>
+            </li>
+            <li>
+              <a href="#"><span>인재채용</span></a>
+            </li>
+            <li>
+              <a href="#"><span>오시는 길</span></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <script>
+      let menuAni = gsap.timeline({ paused: true });
+      menuAni
+        .to(".right-menu i:first-child", { top: 8, opacity: 0 })
+        .to(".right-menu i:last-child", { top: -8 }, "<")
+        .to(".right-menu i:nth-child(2)", { rotate: 45 })
+        .to(".right-menu i:last-child", { rotate: -45 }, "<");
+      $("header .right-menu").click(function () {
+        if ($(this).hasClass("on")) {
+          $(this).removeClass("on");
+          $(".snb").removeClass("on");
+          menuAni.timeScale(3).reverse();
+        } else {
+          $(this).addClass("on");
+          $(".snb").addClass("on");
+          menuAni.timeScale(2).play();
+        }
+      });
+    </script>
   </body>
 </html>
