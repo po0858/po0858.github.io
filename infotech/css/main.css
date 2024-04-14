@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/* 메인 */
+:root {
+  --main-red: #f04e4c;
+}
+.main-vis {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.main-vis .mySwiper1 {
+  width: 100%;
+  height: 100%;
+}
+.main-vis div[class^="main-con"] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+}
+.main-vis .vis {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.main-vis .vis img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*  */
+.main-vis .textbox {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.main-vis .text {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-vis .text span {
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+  font-size: 250px;
+  color: #fff;
+  opacity: 0.1;
+  font-weight: 900;
+}
+.main-vis .text p {
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  transition: all 2s;
+}
+.main-vis .text p:first-of-type {
+  color: red;
+  margin-bottom: 20px;
+}
+.main-vis .text p:nth-of-type(2) {
+  font-size: 70px;
+}
+.main-vis .buttonbox {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0;
+  bottom: 10%;
+}
+.main-vis .button {
+  display: flex;
+  max-width: 1660px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 10px;
+}
+.main-vis .button div[class^="swiper-button"] {
+  position: static;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: transparent;
+  margin-top: 0;
+}
+.main-vis .button div[class^="swiper-button"]:after {
+  font-size: 24px;
+  color: #fff;
+}
+/*  */

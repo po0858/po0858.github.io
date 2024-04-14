@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSAP를 사용한 텍스트 애니메이션</title>
+    <!-- GSAP 라이브러리 추가 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+  </head>
+  <body>
+    <!-- 애니메이션을 적용할 요소 -->
+    <p id="animatedText">격이 다른 기술력, Infotech</p>
+
+    <script>
+      // 각 글자에 대한 애니메이션을 생성하고 딜레이를 적용
+      const text = document.getElementById("animatedText");
+      const letters = text.textContent.split("");
+      console.log(text, letters);
+      text.textContent = ""; // 원본 텍스트 제거
+
+      letters.forEach((letter, index) => {
+        const span = document.createElement("span");
+        span.textContent = letter;
+        text.appendChild(span);
+
+        gsap.from(span, {
+          duration: 1,
+          opacity: 0,
+          y: -50,
+          ease: "power1.inOut",
+          delay: index * 0.1, // 각 글자마다 0.1초씩 딜레이를 적용
+        });
+      });
+    </script>
+  </body>
+</html>
