@@ -316,6 +316,10 @@
       </div>
     </section>
     <script>
+      $(".lnb-2depth > li").each(function (index, value) {
+        let time = ($(value).index() + 1) * 0.1;
+        $(value).css({ transitionDelay: time + "s" });
+      });
       $(".right-search").click(() => {
         let ht = $("header .top-search .topbarwrap").innerHeight();
         $("header .top-search").height(ht);
