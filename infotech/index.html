@@ -6,6 +6,7 @@
     <title>Document</title>
     <script src="js/plugin/jquery-3.7.1.min.js"></script>
     <script src="js/plugin/gsap.min.js"></script>
+    <script src="js/plugin/ScrollTrigger.min.js"></script>
     <script src="js/plugin/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -249,7 +250,6 @@
         </li>
       </ul>
     </section>
-
     <section class="main-vis">
       <div class="swiper mySwiper1">
         <div class="swiper-wrapper">
@@ -315,6 +315,87 @@
         </div>
       </div>
     </section>
+    <section class="main-sec01">
+      <div class="con">
+        <div class="wrap">
+          <div class="left">
+            <h4>Why Infotech?</h4>
+            <h2>
+              국내 선두기업들이<br />
+              인포텍의 API와<br />
+              엔진을 선택한 이유!
+            </h2>
+            <p>지금 확인하세요!</p>
+          </div>
+          <div class="right">
+            <div class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card">
+                    <h4>신용평가사</h4>
+                    <p>
+                      >국내 대표 신용평가사들이 인포텍의 <br />우수한 대량 정보
+                      수집/처리 자동화 서비스를 <br />선택하여 사용하고
+                      있습니다.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <h4>공공기관</h4>
+                    <p>
+                      다양한 구축경험과 안정적인 운영 능력을 인정받아 각 분야별
+                      공공기업들의 선택을 받았습니다.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <h4>세무 플랫폼</h4>
+                    <p>
+                      빠른 데이터 처리와 유지보수 지원으로, 세무 플랫폼 기업들의
+                      No.1 파트너 자리를 차지하고 있습니다.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <h4>매출관리 플랫폼</h4>
+                    <p>
+                      인포텍의 통합 경영관리 서비스는 업계 최다 API를
+                      보유/제공하여, 바쁜 개인/법인 사업자들이 비즈니스에만
+                      집중하실 수 있도록 서비스합니다.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <h4>핀테크 플랫폼</h4>
+                    <p>
+                      다양한 금융정보 데이터를 가장 빠르고 안전하게 수집하는
+                      기술력을 바탕으로, 국내 최고 핀테크 업체에게 선택받았고
+                      함께 성장하고 있습니다.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <h4>기업RPA 플랫폼</h4>
+                    <p>
+                      단순반복적인 업무의 자동화를 통한 업무 효율성을 높이기
+                      위해 국내 300개 이상의 대기업이 인포텍의 기업정보 자동수집
+                      서비스를 사용하고 있습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="text"></div>
+    </section>
     <script>
       $(".lnb-2depth > li").each(function (index, value) {
         let time = ($(value).index() + 1) * 0.1;
@@ -344,6 +425,16 @@
           snbAni.timeScale(2).play();
         }
       });
+      gsap.to("header", {
+        backgroundColor: "#000",
+        scrollTrigger: {
+          trigger: ".main-vis",
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+          markers: true,
+        },
+      });
       var swiper = new Swiper(".mySwiper1", {
         speed: 1000,
         loop: true,
@@ -366,6 +457,36 @@
             );
           },
         },
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        // width: "330",
+        slidesPerView: "1",
+        spaceBetween: -650,
+        pagination: {
+          el: ".swiper-pagination",
+          // type: "progressbar",
+        },
+        // speed: 1000,
+        // loop: true,
+        // effect: "fade",
+        // autoplay: {
+        // delay: 2500,
+        // disableOnInteraction: false,
+        // },
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
+        // on: {
+        //   slideChange: function () {
+        //     console.log(
+        //       $(".mySwiper1")
+        //         .find("swiper-slide")
+        //         .eq(this.realIndex)
+        //         .find(".text p")
+        //     );
+        //   },
+        // },
       });
       // let maintext = document.getElementById("animatedText");
     </script>
