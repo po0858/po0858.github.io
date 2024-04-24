@@ -68,7 +68,7 @@
         <nav>
           <ul class="gnb-1depth">
             <li>
-              <a href="#">i-hub</a>
+              <a href="#">i-Hub</a>
               <ul class="lnb-2depth">
                 <li><a href="#">intro</a></li>
                 <li><a href="#">Cloud API</a></li>
@@ -326,6 +326,9 @@
               엔진을 선택한 이유!
             </h2>
             <p>지금 확인하세요!</p>
+            <a href="#"
+              ><i class="dot"></i><i class="dot"></i><i class="dot"></i
+            ></a>
           </div>
           <div class="right">
             <div class="swiper mySwiper2">
@@ -5742,6 +5745,30 @@
                       </p>
                     </div>
                   </div>
+                  <div class="more">
+                    <a href="#">
+                      <svg viewBox="0 0 100 100" width="300" height="300">
+                        <defs class="">
+                          <path
+                            id="circle"
+                            d="
+                          M 50, 50
+                          m -37, 0
+                          a 37,37 0 1,1 74,0
+                          a 37,37 0 1,1 -74,0"
+                          ></path>
+                        </defs>
+                        <text font-size="14.7">
+                          <textPath xlink:href="#circle">
+                            More More More More More More
+                          </textPath>
+                        </text>
+                      </svg>
+                      <span class="material-symbols-outlined">
+                        trending_flat
+                      </span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -5781,13 +5808,21 @@
         }
       });
       gsap.to("header", {
-        backgroundColor: "#000",
+        // backgroundColor: "#000",
+
         scrollTrigger: {
           trigger: ".main-vis",
-          start: "top top",
-          end: "bottom top",
-          scrub: true,
-          markers: true,
+          // trigger: "header",
+          start: "bottom top",
+          onEnter: () => {
+            $("header").addClass("on");
+          },
+          onLeaveBack: () => {
+            $("header").removeClass("on");
+          },
+          // end: "+=1500",
+          // scrub: true,
+          // markers: true,
         },
       });
       var swiper = new Swiper(".mySwiper1", {

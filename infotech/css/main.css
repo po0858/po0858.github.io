@@ -138,6 +138,24 @@
   color: #222;
   font-size: 20px;
 }
+.main-sec01 .left a {
+  margin-top: 30px;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #444;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.main-sec01 .left a i {
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #222;
+}
 .main-sec01 .right {
   width: 65%;
   margin-right: -15%;
@@ -262,4 +280,25 @@
 .main-sec01 .right .swiper .swiper-slide-active .card .textbox p {
   /* display: block; */
   opacity: 0.5;
+}
+.main-sec01 .right .swiper .swiper-slide .more > a > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-sec01 .right .swiper .swiper-slide .more > a > svg text {
+  transform-origin: 50%;
+  animation: moreAni 10s linear infinite;
+}
+.main-sec01 .right .swiper .swiper-slide .more > a > span {
+  font-size: 60px;
+}
+@keyframes moreAni {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
