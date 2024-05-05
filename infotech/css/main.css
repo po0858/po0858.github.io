@@ -1,4 +1,12 @@
 @charset "utf-8";
+@font-face {
+  font-family: solid;
+  src: url(../../webfonts/fa-solid-900.woff2) format("woff2");
+}
+@font-face {
+  font-family: regular;
+  src: url(../../webfonts/fa-regular-400.woff2) format("woff2");
+}
 
 /* 메인 */
 :root {
@@ -10,6 +18,15 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+.main-vis .white-bg {
+  background: #fff;
+  width: 100%;
+  height: 65%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 .main-vis .mySwiper1 {
   width: 100%;
@@ -57,7 +74,8 @@
   left: -10%;
   transform: translateY(-50%);
   font-size: 250px;
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
   opacity: 0.1;
   font-weight: 900;
 }
@@ -73,6 +91,7 @@
 }
 .main-vis .text p:nth-of-type(2) {
   font-size: 70px;
+  color: #000;
 }
 .main-vis .buttonbox {
   position: absolute;
@@ -260,6 +279,7 @@
   position: absolute;
   left: 30px;
   bottom: 30px;
+  width: 100%;
 }
 .main-sec01 .right .swiper .swiper-slide .card .textbox h4 {
   font-size: 30px;
@@ -269,7 +289,7 @@
   margin-top: 15px;
   font-size: 15px;
   width: calc(100% - 60px);
-  white-space: nowrap;
+  /* white-space: nowrap; */
   /* display: none; */
   color: #fff;
   transition: all 0.3s;
@@ -301,6 +321,10 @@
   100% {
     transform: rotate(360deg);
   }
+}
+.main-sec01 .con .swiper-pagination {
+  top: auto;
+  bottom: 10%;
 }
 .main-banner {
   width: 100%;
@@ -362,4 +386,336 @@
 .main-banner .right span {
   font-size: 30px;
   color: #fff;
+}
+.main-sec02 {
+  background: #fcf5f5;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.main-sec02 .wrap {
+  width: 1720px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+.main-sec02 .title {
+  text-align: center;
+}
+.main-sec02 .title h4 {
+  color: var(--main-red);
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.main-sec02 .title h2 {
+  color: #222;
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+.main-sec02 .title p {
+  color: #222;
+  font-size: 20px;
+}
+.main-sec02 .con {
+  width: 100%;
+  background: #fff;
+  height: 560px;
+  border-radius: 10px;
+  margin-top: 65px;
+}
+.main-sec02 .con .sec02-tab {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-sec02 .con .sec02-tab > li {
+  position: relative;
+  padding: 30px 10px;
+  box-sizing: border-box;
+  transition: width 0.4s;
+  width: 80px;
+}
+.main-sec02 .con .sec02-tab > li:not(.on) {
+  flex-grow: 1;
+  cursor: pointer;
+}
+.main-sec02 .con .sec02-tab > li:not(:last-child) {
+  border-right: 1px solid #eee;
+}
+.main-sec02 .con .sec02-tab > li.on {
+  width: 1120px;
+}
+.main-sec02 .con .sec02-tab > li > h4 {
+  color: #222;
+  text-align: center;
+  font-size: 20px;
+  transition: opacity 0.2s;
+}
+.main-sec02 .con .sec02-tab > li.on > h4 {
+  opacity: 0;
+}
+.main-sec02 .con .sec02-tab > li > i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #ddd;
+  font-family: "solid";
+  transition: top 0.4s;
+}
+.main-sec02 .con .sec02-tab > li.on > i {
+  top: 60%;
+}
+.main-sec02 .con .sec02-tab .inner {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.main-sec02 .con .sec02-tab li.on .inner {
+  opacity: 1;
+  transition: opacity 0.4s 0.4s;
+}
+.main-sec02 .con .sec02-tab .inner .title {
+  position: relative;
+  margin-top: 15px;
+}
+.main-sec02 .con .sec02-tab .inner .title h4 {
+  color: #222;
+  text-align: center;
+  font-size: 30px;
+}
+.main-sec02 .con .sec02-tab .inner .title [class^="swiper-button"] {
+  top: 0;
+  bottom: auto;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  transition: all 0.4s;
+}
+.main-sec02 .con .sec02-tab .inner .title [class^="swiper-button"]::after {
+  font-size: 20px;
+  color: #222;
+  font-weight: 700;
+  transition: all 0.4s;
+}
+.main-sec02 .con .sec02-tab .inner .title [class^="swiper-button"]:hover {
+  background: var(--main-red);
+  border-color: var(--main-red);
+}
+.main-sec02
+  .con
+  .sec02-tab
+  .inner
+  .title
+  [class^="swiper-button"]:hover::after {
+  color: #fff;
+}
+.main-sec02 .con .sec02-tab .inner .title .swiper-button-prev {
+  left: 10px;
+}
+.main-sec02 .con .sec02-tab .inner .title .swiper-button-next {
+  right: 10px;
+}
+.main-sec02 .con .sec02-tab .swiper {
+  height: 80%;
+  padding: 30px 10px;
+  box-sizing: border-box;
+}
+.main-sec02 .con .sec02-tab .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.main-sec02 .con .sec02-tab .card {
+  width: 100%;
+  height: 100%;
+  padding: 30px 30px 25px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 20px #0000000d;
+  border-radius: 20px;
+  background: #fff;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.main-sec02 .con .sec02-tab .card:hover {
+  background: var(--main-red);
+}
+.main-sec02 .con .sec02-tab .card h4 {
+  display: inline-block;
+  color: #222;
+  font-size: 18px;
+  margin-bottom: 20px;
+  transition: background-size 0.4s, color 0.4s;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 100% 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+}
+.main-sec02 .con .sec02-tab .card:hover h4 {
+  color: #fff;
+  background-size: 100% 2px;
+  background-position: 0% 100%;
+}
+.main-sec02 .con .sec02-tab .card p {
+  color: #666;
+  font-size: 15px;
+}
+.main-sec02 .con .sec02-tab .inner .swiper-pagination {
+  bottom: 35px;
+}
+.main-sec02 .con .sec02-tab .inner .swiper-pagination-bullet-active {
+  background: var(--main-red2);
+}
+.main-sec03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 120px);
+}
+.main-sec03 .reference {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 480px);
+}
+.main-sec03 .reference .wrap {
+  width: 1520px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+  display: flex;
+}
+.main-sec03 .reference .left .title h4 {
+  margin-bottom: 25px;
+  color: var(--main-red);
+  font-size: 20px;
+}
+.main-sec03 .reference .left .title h2 {
+  margin-bottom: 32px;
+  color: #222;
+  font-size: 40px;
+}
+.main-sec03 .reference .left .title p {
+  font-size: 15px;
+  color: #222;
+}
+.main-sec03 .reference .left .sec03Banner-btn {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.main-sec03 .reference .left .sec03Banner-btn > div {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  border: 2px solid #555859;
+  border-radius: 50%;
+  left: auto;
+  right: auto;
+  opacity: 0.25;
+  transition: all 0.6s;
+}
+.main-sec03 .reference .left .sec03Banner-btn > div::after {
+  /* content: ""; */
+  color: #555859;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.6s;
+}
+.main-sec03 .reference .left .sec03Banner-btn > div:hover {
+  opacity: 1;
+  border-color: var(--main-red);
+  background: var(--main-red);
+}
+.main-sec03 .reference .left .sec03Banner-btn > div:hover::after {
+  color: #fff;
+}
+.main-sec03 .reference .right {
+  position: relative;
+  width: 880px;
+}
+.main-sec03 .reference .right .banner {
+  width: 100%;
+  height: 100%;
+}
+.main-sec03 .reference .right .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-sec03 .reference .right .swiper-wrapper {
+  height: 100%;
+}
+.main-sec03 .reference .right .swiper-slide {
+  padding: 10px;
+  box-sizing: border-box;
+  height: calc((100% - 30px) / 4) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-sec03 .reference .right .swiper-slide img {
+  width: 100%;
+}
+.main-sec03 .contact {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 480px;
+  background: url(../images/main_contact_bg.jpg) center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-sec03 .contact .bg {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main-sec03 .contact .wrap {
+  width: 1520px;
+}
+.main-sec03 .contact .title {
+  opacity: 0;
+}
+.main-sec03 .contact .title h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: var(--main-red);
+}
+.main-sec03 .contact .title h4 {
+  font-size: 40px;
+  margin-bottom: 32px;
+  color: #fff;
+}
+.main-sec03 .contact .title button {
+  width: 160px;
+  height: 40px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: 900;
+  outline: none;
+  background: transparent;
+  transition: all 0.4s;
+}
+.main-sec03 .contact .title button:hover {
+  background: var(--main-red);
+  border-color: var(--main-red);
 }
